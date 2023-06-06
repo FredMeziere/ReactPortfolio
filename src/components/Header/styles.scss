@@ -1,0 +1,35 @@
+@use "src/styles/vars";
+
+.header {
+    width: 100%;
+    margin-top: 5px;
+
+&-divh1 {
+    color: vars.$color5; 
+
+}
+&-h1 {
+    margin-left: 15px;
+    font-weight: bolder;
+}
+
+&-h1color {
+    text-decoration: none;
+}
+
+&-h1span {
+    background: vars.$color5;
+    color: vars.$color1;
+    font-size: 48px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+&-h1point {
+    
+    color: vars.$color5;
+    font-size: 32px;
+    border-radius: 5px;
+}
+}
