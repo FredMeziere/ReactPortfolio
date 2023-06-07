@@ -2,4 +2,14 @@
 
 .footer {
     color: vars.$color5;
+    width: 100%;
+    text-align: center;
+&-p {
+    color: vars.$color2;
+    font-size: 24px;
+}
+
+&-socials {
+    border: 1px solid vars.$color2;
+}
 }

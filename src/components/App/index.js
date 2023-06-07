@@ -1,15 +1,19 @@
 import Footer from '../Footer';
 import Header from '../Header';
-import Navbar from '../Navbar';
+import SocialMedia from '../SocialMedia';
+// import Footer from '../Footer';
+import './scrollbar.scss';
 
 // == Composant
-const App = () => (
-  <div className="app">
-    <Header />
-    <Navbar />
-    <Footer />
-  </div>
-);
+function App() {
+  return (
+    <div className="app">
+      <Header />
+      <SocialMedia />
+      <Footer />
+    </div>
+  );
+}
 
 // == Export
 export default App;

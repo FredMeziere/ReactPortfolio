@@ -3,6 +3,14 @@
 .header {
     width: 100%;
     margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid yellow;
+
+&-div {
+
+}
 
 &-divh1 {
     color: vars.$color5; 
@@ -19,7 +27,7 @@
 
 &-h1span {
     background: vars.$color5;
-    color: vars.$color1;
+    color: vars.$color2;
     font-size: 48px;
     padding: 5px;
     border-radius: 5px;
@@ -32,4 +40,76 @@
     font-size: 32px;
     border-radius: 5px;
 }
+}
+
+/* -------------------------------- Partie Navbar ---------------------------
+
+----------------------------------------------------------------------------- */
+
+.navbar {
+    color: vars.$color4;
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+&-plink1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    background-color: vars.$color5;
+    color: vars.$color2;
+    border-radius: 5px;
+}
+
+&-plink1:hover{
+    background-color: vars.$color1;
+    color: vars.$color3;
+    border-radius: 5px;
+    transition-delay: 0.15s;
+}
+
+
+&-plink2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+&-plink4 {
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    background-color: vars.$color5;
+    border-radius: 5px;
+}
+
+&-a1 {
+    color: vars.$color4;
+    text-decoration: none;
+}
+
+&-a2 {
+    color: vars.$color4;
+    text-decoration: none;
+}
+
+&-a3 {
+    color: vars.$color4;
+    text-decoration: none;
+}
+
+&-a4 {
+    border-radius: 5px;
+    color: vars.$color2;
+}
+
 }
