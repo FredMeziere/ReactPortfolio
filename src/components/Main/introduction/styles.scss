@@ -1,0 +1,63 @@
+@use "src/styles/vars";
+
+.introduction {
+    align-items: center;
+
+&-h2 {
+    color: vars.$color2;
+    text-align: center;
+    background-color: vars.$color1;
+    margin-top: 15px;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    font-size: 90px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 900;
+}
+
+&-span1 {
+    color: vars.$color5;
+    font-size: 72px;
+    animation: blinker 4s linear infinite;
+}
+    
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+&-span2 {
+    color: vars.$color5;
+    font-size: 32px;
+    background-color: vars.$color2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+&-span2:hover {
+    background-color: vars.$color5;
+    color: vars.$color2;
+    transition-delay: 0.5ms;
+    border-radius: 5px;
+}
+
+&-spanpoint1 {
+    font-size: 64px;
+    animation: blinker 3s linear infinite;
+}
+
+ &-spanpoint2 {
+    font-size: 64px;
+    animation: blinker 3s linear infinite;
+    animation-delay: 1s;
+ }
+
+ &-spanpoint3 {
+    font-size: 64px;
+    animation: blinker 3s linear infinite;
+    animation-delay: 2s;
+ }
+}

@@ -2,13 +2,13 @@ import './styles.scss';
 
 function introduction() {
   return (
-    <div className="div__intro__main">
-      <h2 className="h2__div__main">Développeur web
+    <div className="introduction">
+      <h2 className="introduction-h2">Développeur web
         <br />
-        <span className="span__2__main__div__h2">Fullstack JS</span>
+        <span className="introduction-span1">Fullstack JS</span>
         <br />
-        <span className="span__main__div__h2">Orienté back-end</span> <span className="span__point1__main">.</span>
-        <span className="span__point2__main">.</span><span className="span__point3__main">.</span>
+        <span className="introduction-span2">Orienté back-end</span> <span className="introduction-spanpoint1">.</span>
+        <span className="introduction-spanpoint2">.</span><span className="introduction-spanpoint3">.</span>
       </h2>
     </div>
   );
