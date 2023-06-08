@@ -1,0 +1,44 @@
+@use "src/styles/vars";
+
+
+.presentation {
+
+    text-align: center;
+    background-color: vars.$color1;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-weight: 900;
+
+&-h1 {
+    font-size: vars.$fontsize32;
+    color: vars.$color5;
+    padding: 20px;
+    
+}
+
+&-p {
+    line-height: 2em;
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: vars.$color2;
+}
+
+&-span {
+    color: vars.$color5;
+
+}
+
+&-img {
+    width: 10%;
+    border-radius: 25%;
+    background-color: vars.$color5;
+    padding: 10px;
+}
+
+}

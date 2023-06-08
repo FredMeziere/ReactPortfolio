@@ -6,14 +6,14 @@ import './styles.scss';
 
 import Introduction from './Introduction';
 import Skills from './Skills';
-// import Presentation from './Presentation';
-// import Skills from './Skills';
+import Presentation from './Presentation';
 
 function Main() {
   return (
     <div className="main">
       <Introduction />
       <Skills />
+      <Presentation />
     </div>
   );
 }
