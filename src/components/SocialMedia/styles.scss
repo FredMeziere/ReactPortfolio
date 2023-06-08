@@ -1,7 +1,7 @@
 @use "src/styles/vars";
 
 .socialmedia {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     left: 15px;
@@ -24,7 +24,7 @@
     font-size: 16px;
     text-align: center;
     color: vars.$color2;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 &-img {

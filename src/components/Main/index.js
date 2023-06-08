@@ -9,6 +9,7 @@ import Skills from './Skills';
 import Presentation from './Presentation';
 import Parcours from './Parcours';
 
+
 function Main() {
   return (
     <div className="main">

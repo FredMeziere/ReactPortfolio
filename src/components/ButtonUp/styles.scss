@@ -1,0 +1,17 @@
+@use "src/styles/vars";
+
+.button {
+
+    &-a {
+        position: fixed;
+        right: 50px;
+        bottom: 30px;
+        color: vars.$color5;
+        background-color: vars.$color3;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 900;
+    }
+    
+}
+

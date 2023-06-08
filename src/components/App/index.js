@@ -2,7 +2,7 @@ import Footer from '../Footer';
 import Header from '../Header';
 import SocialMedia from '../SocialMedia';
 import Main from '../Main';
-
+import ButtonUp from '../ButtonUp';
 import './scrollbar.scss';
 
 // == Composant
@@ -13,6 +13,7 @@ function App() {
       <SocialMedia />
       <Main />
       <Footer />
+      <ButtonUp />
     </div>
   );
 }

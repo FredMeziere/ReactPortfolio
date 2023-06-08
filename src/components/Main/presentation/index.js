@@ -17,7 +17,7 @@ function Presentation() {
         <br />
         J'adore le <span className="presentation-span">sport</span>, je pratique la course à pied et randonnée et j'aimerais faire un peu de natation. J'adore les <span className="presentation-span">jeux vidéos</span> et j'adore aussi coder par simple plaisir de découvrir de nouvelles choses. Je suis aussi intéressé par les IA et le machine learning.
         <br />
-        Je fais de la <span className="presentation-span">photo </span>dans les fetes foraines et parc (avec <span className="presentation-span">gestion</span> depage facebook).
+        Je fais de la <span className="presentation-span">photo </span>dans les fetes foraines et parc (avec <span className="presentation-span">gestion </span>de page facebook).
         <br />
         Je deteste me mettre en avant, mais mes qualités selon moi seraient d'etre patient, à l'écoute et extrement curieux<span className="presentation-span">(je voudrais tout faire et tout voir !)</span>
       </p>
