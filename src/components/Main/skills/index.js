@@ -44,7 +44,7 @@ function Skills() {
       </div>
       <div className="skills-competences">
         <h2 className="skills-competences-h1">
-          Mes competences techniques
+          Mes competences techniques de développement
         </h2>
         <div className="skills-competences-frontback">
           <div className="skills-competences-front">
@@ -71,16 +71,12 @@ function Skills() {
         </div>
         <div className="skills-competences-devops">
           <p className="skills-competences-p">
-            Pendant la formation j'ai aussi acquérir de bonnes bases avec git/github. Avec l'environement linux (sous vm)
-          </p>
-          <p className="skills-competences-p">
+            Pendant la formation j'ai aussi acquérir de bonnes bases avec git/github. Avec l'environement linux (sous vm).
+            <br />
             Je sais également réaliser des MCD et MLD dictionnaire de données.
-          </p>
-          <p className="skills-competences-p">
-            Mais aussi réaliser des maquettes (basiques) et des wireframes. (Figma)
-            Utilisation de kanban pour la gestion de projet (Notion) et outils pour la discussion (Google meet/discord etc..)
-          </p>
-          <p className="skills-competences-p">
+            Mais aussi réaliser des maquettes (basiques) et des wireframes (Figma).
+            Utilisation réguliere de kanban pour la gestion de projet (Notion) et outils pour la discussion (Google meet/discord etc..)
+            <br />
             Coté langues, je lis l'anglais et le comprends à l'oral, j'éprouve plus de difficultés a le parler. Mais je prends des cours via applis pour renforcer mes lacunes.
           </p>
         </div>
