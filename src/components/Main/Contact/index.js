@@ -1,4 +1,4 @@
-{ /* <div class="contactez-nous">
+/* <div class="contactez-nous">
     <h1>Contactez-moi ici.</h1>
     <p>Vous pouvez également me contacter sur <a class="linkedin__link"
                 href="https://www.linkedin.com/in/fred-meziere/" target="_blank">linkedin </a> </p>
@@ -25,4 +25,4 @@
         </form>
     </div>
 
-    <script src="js/client.js" defer></script> */ }
+    <script src="js/client.js" defer></script> */
