@@ -1,0 +1,83 @@
+@use "src/styles/vars";
+
+/*
+---------------------------------------------------------
+
+        Partie Skills
+
+---------------------------------------------------------
+*/
+
+.skills {
+
+&-parcours {
+    color: vars.$color2;
+    text-align: center;
+    background-color: vars.$color1;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+&-parcours-h1 {
+    font-size: vars.$fontsize32;
+    color: vars.$color5;
+}
+
+&-parcours-p {
+    padding: 5px;
+    font-size: vars.$fontsize24;
+    line-height: 2rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*
+---------------------------------------------------------
+
+        Partie Competences
+
+---------------------------------------------------------
+*/
+
+    &-competences {
+        color: vars.$color2;
+        text-align: center;
+        background-color: vars.$color1;
+        margin-top: 15px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-weight: 900;
+    }
+
+    &-competences-h1 {
+        font-size: vars.$fontsize32;
+        color: vars.$color5;
+    }
+
+    &-competences-frontback {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+
+    &-competences-h3 {
+        color: vars.$color5;
+        font-size: 28px;
+    }
+
+    &-competences-p {
+        margin: 20px;
+        font-size: 28px;
+    }
+    }

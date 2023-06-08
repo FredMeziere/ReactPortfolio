@@ -2,23 +2,19 @@
 
 .header {
     width: 100%;
-    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid yellow;
+    align-items: baseline;
+    margin-bottom: 30px;
 
-&-div {
+    &-div {
+        margin-top: 25px;
+    }
 
-}
-
-&-divh1 {
-    color: vars.$color5; 
-
-}
 &-h1 {
-    margin-left: 15px;
     font-weight: bolder;
+    font-size: 32px;
 }
 
 &-h1color {
@@ -32,23 +28,34 @@
     padding: 5px;
     border-radius: 5px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 &-h1point {
-    
     color: vars.$color5;
     font-size: 32px;
     border-radius: 5px;
 }
+
+&-h1spanm {
+    background: vars.$color5;
+    color: vars.$color2;
+    font-size: 32px;
+    padding: 2px;
+    border-radius: 5px;
+}
 }
 
-/* -------------------------------- Partie Navbar ---------------------------
+/* 
+-----------------------------------------------------------------------------
 
------------------------------------------------------------------------------ */
+                                Partie Navbar
+
+-----------------------------------------------------------------------------
+ */
 
 .navbar {
-    color: vars.$color4;
-    width: 100vh;
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,7 +66,7 @@
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 22px;
+    font-size: 24px;
     background-color: vars.$color5;
     color: vars.$color2;
     border-radius: 5px;
@@ -78,7 +85,7 @@
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 &-plink4 {
@@ -87,29 +94,33 @@
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 22px;
+    font-size: 24px;
     background-color: vars.$color5;
     border-radius: 5px;
 }
 
 &-a1 {
-    color: vars.$color4;
+    color: vars.$color2;
     text-decoration: none;
+    font-weight: 700;
 }
 
 &-a2 {
     color: vars.$color4;
     text-decoration: none;
+    font-weight: 700;
 }
 
 &-a3 {
     color: vars.$color4;
     text-decoration: none;
+    font-weight: 700;
 }
 
 &-a4 {
     border-radius: 5px;
     color: vars.$color2;
+    font-weight: 700;
 }
 
 }
