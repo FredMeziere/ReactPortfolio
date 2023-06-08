@@ -22,14 +22,14 @@
     margin-right: 20px;
     margin-bottom: 50px;
     font-weight: 900;
-}
-&-parcours-h1 {
+
+&-h1 {
     font-size: vars.$fontsize32;
     color: vars.$color5;
     margin-bottom: 10px;
 }
 
-&-parcours-p {
+&-p {
     padding: 5px;
     font-size: vars.$fontsize24;
     line-height: 2rem;
@@ -37,48 +37,89 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-
+}
 
 /*
 ---------------------------------------------------------
 
-        Partie Competences
+        Partie Competences / text / h3 div
 
 ---------------------------------------------------------
 */
 
-    &-competences {
-        color: vars.$color2;
-        text-align: center;
-        background-color: vars.$color1;
-        margin-top: 15px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        border-radius: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-weight: 900;
-    }
+&-competences {
+    color: vars.$color2;
+    text-align: center;
+    background-color: vars.$color1;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    
 
-    &-competences-h1 {
-        font-size: vars.$fontsize32;
-        color: vars.$color5;
-    }
+&-h1 {
+    font-size: vars.$fontsize32;
+    color: vars.$color5;
+}
 
-    &-competences-frontback {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: 40px;
-    }
+&-frontback {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
 
-    &-competences-h3 {
+&-h3 {
         color: vars.$color5;
         font-size: 28px;
-    }
+        margin-bottom: 20px;
+}
 
-    &-competences-p {
-        margin: 20px;
-        font-size: 28px;
-    }
-    }
+/*
+---------------------------------------------------------
+
+        Partie Competences / icons
+
+---------------------------------------------------------
+*/
+&-front {
+    margin-bottom: 30px;
+}
+
+&-back {
+    margin-bottom: 30px;
+}
+
+&-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+&-image {
+    width: 30%;
+    padding: 10px;
+}
+
+/*
+---------------------------------------------------------
+
+        Partie Competences / devops
+
+---------------------------------------------------------
+*/
+
+
+&-p {
+    margin: 10px;
+    font-size: 28px;
+}
+
+}
+
+
+}

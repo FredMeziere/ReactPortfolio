@@ -8,13 +8,14 @@
     align-items: baseline;
     margin-bottom: 30px;
 
-    &-div {
+&-div {
         margin-top: 25px;
     }
 
 &-h1 {
     font-weight: bolder;
     font-size: 32px;
+    color: vars.$color5;
 }
 
 &-h1color {
@@ -106,13 +107,13 @@
 }
 
 &-a2 {
-    color: vars.$color4;
+    color: vars.$color5;
     text-decoration: none;
     font-weight: 700;
 }
 
 &-a3 {
-    color: vars.$color4;
+    color: vars.$color5;
     text-decoration: none;
     font-weight: 700;
 }

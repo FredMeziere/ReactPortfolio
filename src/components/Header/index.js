@@ -6,7 +6,7 @@ function Header() {
       <div className="header-div">
         <a className="header-h1color" href="/main">
           <h1 className="header-h1">
-            <span className="header-h1span">F</span>red<span className="header-h1point">.</span><span className="header-h1spanm">M</span>eziere
+            <span className="header-h1span">F</span>red<span className="header-h1point">.</span><span className="header-h1span">M</span>eziere
           </h1>
         </a>
       </div>

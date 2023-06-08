@@ -1,5 +1,17 @@
 import './styles.scss';
 
+import html from '../../../assets/iconskills/html.png';
+import css from '../../../assets/iconskills/css.png';
+import js from '../../../assets/iconskills/js.png';
+import sass from '../../../assets/iconskills/sass.png';
+import express from '../../../assets/iconskills/express.png';
+import node from '../../../assets/iconskills/node.png';
+import mongo from '../../../assets/iconskills/mongo.png';
+import react from '../../../assets/iconskills/react.png';
+import sql from '../../../assets/iconskills/sql.png';
+import boot from '../../../assets/iconskills/boot.png';
+import sqitch from '../../../assets/iconskills/sqitch.png';
+
 function Skills() {
   return (
     <div className="skills">
@@ -37,10 +49,40 @@ function Skills() {
         <div className="skills-competences-frontback">
           <div className="skills-competences-front">
             <h3 className="skills-competences-h3">Compétences Front-end</h3>
+            <div className="skills-competences-icons">
+              <img className="skills-competences-image" src={html} alt="html logo" />
+              <img className="skills-competences-image" src={css} alt="css logo" />
+              <img className="skills-competences-image" src={sass} alt="sass logo" />
+              <img className="skills-competences-image" src={boot} alt="boot logo" />
+              <img className="skills-competences-image" src={react} alt="React logo" />
+            </div>
           </div>
           <div className="skills-competences-back">
             <h3 className="skills-competences-h3">Compétences Back-end</h3>
+            <div className="skills-competences-icons">
+              <img className="skills-competences-image" src={express} alt="express logo" />
+              <img className="skills-competences-image" src={sql} alt="sql logo" />
+              <img className="skills-competences-image" src={mongo} alt="boot logo" />
+              <img className="skills-competences-image" src={js} alt="Javascript logo" />
+              <img className="skills-competences-image" src={sqitch} alt="Sqitch logo" />
+              <img className="skills-competences-image" src={node} alt="node logo" />
+            </div>
           </div>
+        </div>
+        <div className="skills-competences-devops">
+          <p className="skills-competences-p">
+            Pendant la formation j'ai aussi acquérir de bonnes bases avec git/github. Avec l'environement linux (sous vm)
+          </p>
+          <p className="skills-competences-p">
+            Je sais également réaliser des MCD et MLD dictionnaire de données.
+          </p>
+          <p className="skills-competences-p">
+            Mais aussi réaliser des maquettes (basiques) et des wireframes. (Figma)
+            Utilisation de kanban pour la gestion de projet (Notion) et outils pour la discussion (Google meet/discord etc..)
+          </p>
+          <p className="skills-competences-p">
+            Coté langues, je lis l'anglais et le comprends à l'oral, j'éprouve plus de difficultés a le parler. Mais je prends des cours via applis pour renforcer mes lacunes.
+          </p>
         </div>
       </div>
     </div>
