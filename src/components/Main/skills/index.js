@@ -64,20 +64,27 @@ function Skills() {
               <img className="skills-competences-image" src={sql} alt="sql logo" />
               <img className="skills-competences-image" src={mongo} alt="boot logo" />
               <img className="skills-competences-image" src={js} alt="Javascript logo" />
-              <img className="skills-competences-image" src={sqitch} alt="Sqitch logo" />
+              <img className="skills-competences-image" src={sqitch} alt="Sqitch logo original creator https://github.com/theory/" />
               <img className="skills-competences-image" src={node} alt="node logo" />
             </div>
           </div>
         </div>
         <div className="skills-competences-devops">
+          <h3 className="skills-competences-h3">Autres connaissances / outils </h3>
           <p className="skills-competences-p">
-            Pendant la formation j'ai aussi acquérir de bonnes bases avec git/github. Avec l'environement linux (sous vm).
+            <span className="skills-competences-span">Gestion de projet: </span>Utilisation de divers outils de gestion de projets que ce soit pour le versionning <span className="skills-competences-span">Git/Github</span> ou encore la gestion de projet et de l'avancé des équipes <span className="skills-competences-span">Notion</span>.
             <br />
-            Je sais également réaliser des MCD et MLD dictionnaire de données.
-            Mais aussi réaliser des maquettes (basiques) et des wireframes (Figma).
-            Utilisation réguliere de kanban pour la gestion de projet (Notion) et outils pour la discussion (Google meet/discord etc..)
+            <span className="skills-competences-span">Outils de discutions: </span>Utilisation d'outils pour la comunication que ce soit pour les discussions <span className="skills-competences-span">Discord / Teams / Slack / GMeet</span>.
             <br />
-            Coté langues, je lis l'anglais et le comprends à l'oral, j'éprouve plus de difficultés a le parler. Mais je prends des cours via applis pour renforcer mes lacunes.
+            <span className="skills-competences-span">Machines virtuelles: </span>Pendant notre formation nous avons essentiellementutilisé <span className="skills-competences-span">Linux (Ubuntu)</span> sous machine virtuelle via <span className="skills-competences-span">Virtual box</span>. Sur mon temps libre j'essaie d'apprendre le fonctionnement et l'uilisation de docker sous windows et j'utilise aussi le multiboot windows/linux a titre personnel.
+            <br />
+            <span className="skills-competences-span">Wireframes/Maquettes: </span>Utilisation de  <span className="skills-competences-span">Figma et Whismical</span> pour la réalisation de maquettes ou de wireframe pour une présentation aux clients.
+            <br />
+            <span className="skills-competences-span">MCD/MLD/Dictionnaire de données: </span>Je suis a l'aise avec la créations des différents documents relatifs a la base de données et en plus de mes connaissances en SQL et mongoDB, je sais aussi utiliser l'outil de "versionning" <span className="skills-competences-span">Sqitch</span>.
+          </p>
+          <h3 className="skills-competences-h3">Langues</h3>
+          <p className="skills-competences-p">
+            <span className="skills-competences-span">Anglais: </span> Je lis l'anglais et le comprends à l'oral, j'éprouve plus de difficultés a le parler. Mais je prends des cours via applis pour renforcer mes lacunes.
           </p>
         </div>
       </div>
