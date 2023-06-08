@@ -14,6 +14,7 @@ function Header() {
         <p className="navbar-plink1"><a className="navbar-a1" href="/main">Accueil</a></p>
         <p className="navbar-plink2-3"><a className="navbar-a2" href="/apropos">Mon parcours</a></p>
         <p className="navbar-plink2-3"><a className="navbar-a3" href="/realisations">Mes réalisations</a></p>
+        <p className="navbar-plink2-3"><a className="navbar-a3" href="/realisations">Mon profil</a></p>
         <p className="navbar-plink4"><a className="navbar-a4" href="/Recrutez-moi">Recrutez-Moi</a></p>
       </div>
     </div>

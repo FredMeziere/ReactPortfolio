@@ -19,7 +19,7 @@ function Presentation() {
         <br />
         Je fais de la <span className="presentation-span">photo </span>dans les fetes foraines et parc (avec <span className="presentation-span">gestion</span> depage facebook).
         <br />
-        Je deteste me mettre en avant, mais mes qualit"s selon moi seraient d'etre patient, à l'écoute et extrement curieux   <span className="presentation-span">(je voudrais tout faire et tout voir !)</span>
+        Je deteste me mettre en avant, mais mes qualités selon moi seraient d'etre patient, à l'écoute et extrement curieux<span className="presentation-span">(je voudrais tout faire et tout voir !)</span>
       </p>
     </div>
   );
