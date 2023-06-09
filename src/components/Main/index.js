@@ -9,6 +9,7 @@ import Skills from './Skills';
 import Presentation from './Presentation';
 import Parcours from './Parcours';
 import Realisations from './Realisations';
+import Contact from './Contact';
 
 function Main() {
   return (
@@ -18,6 +19,7 @@ function Main() {
       <Parcours />
       <Presentation />
       <Realisations />
+      <Contact />
     </div>
   );
 }

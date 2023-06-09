@@ -1,28 +1,60 @@
-/* <div class="contactez-nous">
-    <h1>Contactez-moi ici.</h1>
-    <p>Vous pouvez également me contacter sur <a class="linkedin__link"
-                href="https://www.linkedin.com/in/fred-meziere/" target="_blank">linkedin </a> </p>
-                <form class="form__contact" id="form__contact">
-                    <div>
-                        <label for="nom">Votre nom</label>
-                        <input type="text" id="name" placeholder="Votre nom/prénom ici" >
-                    </div>
-                    <div>
-                <label for="email">Votre e-mail</label>
-                <input type="email" id="email" placeholder="Votreadresse@mail.com" >
-            </div>
-            <div>
-                <label for="email">Motif de votre contact</label>
-                <input type="text" id="subject" placeholder="Sujet de votre message" >
-            </div>
-            <div>
-                <label for="message">Votre message</label>
-                <textarea id="message" placeholder="Votre message"></textarea>
-            </div>
-            <div>
-                <button type="submit" value="Send Message">Envoyer mon message</button>
-            </div>
-        </form>
-    </div>
+import axios from 'axios';
+import './styles.scss';
+import { useState, useRef } from 'react';
 
-    <script src="js/client.js" defer></script> */
+function Contact() {
+  const contactFormRef = useRef(null);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const formData = {
+      name,
+      email,
+      subject,
+      message,
+    };
+
+    axios.post(`${process.env.REACT_APP_BASE_URL}/contact`, formData)
+      .then((response) => response.data)
+      .then((data) => {
+        if (data === 'success') {
+          setName('');
+          setEmail('');
+          setSubject('');
+          setMessage('');
+        }
+      });
+  };
+
+  return (
+    <form ref={contactFormRef} className="form" onSubmit={handleSubmit}>
+      <p className="form-p">Si vous souhaitez me contacter remplissez le formulaire de contact ci-dessous, ou rendez-vous sur mon <a className="form-a" href="https://www.linkedin.com/in/fred-meziere/" alt="lien vers Linkedin">linkedIn</a></p>
+      <div>
+        <label htmlFor="name">Votre nom</label>
+        <input type="text" id="name" placeholder="Votre nom / prénom ici" value={name} onChange={(event) => setName(event.target.value)} />
+      </div>
+      <div>
+        <label htmlFor="email">Votre e-mail</label>
+        <input type="email" id="email" placeholder="Votre adresse email" value={email} onChange={(event) => setEmail(event.target.value)} />
+      </div>
+      <div>
+        <label htmlFor="subject">Motif de votre contact</label>
+        <input type="text" id="subject" placeholder="Sujet de votre message" value={subject} onChange={(event) => setSubject(event.target.value)} />
+      </div>
+      <div>
+        <label htmlFor="message">Votre message</label>
+        <textarea id="message" placeholder="Votre message" value={message} onChange={(event) => setMessage(event.target.value)} />
+      </div>
+      <div>
+        <button type="submit">Envoyer mon message</button>
+      </div>
+    </form>
+  );
+}
+
+export default Contact;
