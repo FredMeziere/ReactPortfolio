@@ -1,20 +1,22 @@
 import { useState } from 'react';
+import './styles.scss';
 
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const [isEmailSent, setIsEmailSent] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+  const [isErrorMessageVisible, setIsErrorMessageVisible] = useState(false);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
     const formData = new FormData();
     formData.append('name', name);
     formData.append('email', email);
     formData.append('subject', subject);
     formData.append('message', message);
-
     try {
       const response = await fetch('https://formspree.io/f/xyyaqvrk', {
         method: 'POST',
@@ -23,22 +25,32 @@ function Contact() {
         },
         body: formData,
       });
-
       if (response.ok) {
         setName('');
         setEmail('');
         setSubject('');
         setMessage('');
+        setIsEmailSent(true);
+      }
+      else {
+        throw new Error('Erreur lors de l\'envoi de l\'e-mail');
       }
     }
     catch (error) {
-      console.error(error);
+      setErrorMessage('Une erreur est survenue lors de l\'envoi de l\'e-mail. Vérifiez que tous les champs du formulaire');
+      setIsErrorMessageVisible(true);
+    }
+    finally {
+      setTimeout(() => {
+        setIsEmailSent(false);
+        setIsErrorMessageVisible(false);
+      }, 10000); // 10 secondes
     }
   };
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <p>Si vous souhaitez nous contacter remplissez le formulaire de contact ci-dessous, et nous répondrons au plus vite</p>
+      <p className="form-p">Si vous souhaitez nous contacter remplissez le formulaire de contact ci-dessous, et nous répondrons au plus vite</p>
       <div>
         <label htmlFor="name">Votre nom</label>
         <input type="text" id="name" placeholder="Votre nom / prénom ici" value={name} onChange={(event) => setName(event.target.value)} />
@@ -58,8 +70,18 @@ function Contact() {
       <div>
         <button type="submit">Envoyer mon message</button>
       </div>
+
+      {isEmailSent && (
+      <p className="form-p">
+        <span className="form-span-succes">Votre e-mail a été envoyé avec succès !</span>
+      </p>
+      )}
+      {isErrorMessageVisible && (
+      <p className="form-p">
+        <span className="form-span-fail">{errorMessage}</span>
+      </p>
+      )}
     </form>
   );
 }
-
 export default Contact;
