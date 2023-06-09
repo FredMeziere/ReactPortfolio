@@ -1,0 +1,11 @@
+@use "src/styles/vars";
+
+@media screen and (max-width:420px){
+    .app{
+      .header{
+        .header-h1span{
+            font-size: vars.$fontsizemobile24;
+        }
+      }
+    }
+}
