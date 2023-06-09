@@ -1,14 +1,13 @@
 @use "src/styles/vars";
 
 .footer {
-    background-color: vars.$color1;
+    
     text-align: center;
     bottom: 0;
     border-radius: 15px;
     margin: auto;
     padding: 20px;
     width: 90%;
-
 
 &-p {
     color: vars.$color5;

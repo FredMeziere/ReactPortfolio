@@ -31,7 +31,6 @@ export default [
   {
     id: 4,
     title: 'Convertisseur',
-    url: 'https://github.com/FredMeziere/converterWithReact',
     miniature: 'https://i.ibb.co/LC56w5G/converter.webp',
     technos: 'React, Javascript, sass/css',
     githubFront: 'https://github.com/FredMeziere/converterWithReact',

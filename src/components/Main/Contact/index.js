@@ -1,39 +1,44 @@
-import axios from 'axios';
-import './styles.scss';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 function Contact() {
-  const contactFormRef = useRef(null);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const formData = {
-      name,
-      email,
-      subject,
-      message,
-    };
+    const formData = new FormData();
+    formData.append('name', name);
+    formData.append('email', email);
+    formData.append('subject', subject);
+    formData.append('message', message);
 
-    axios.post(`${process.env.REACT_APP_BASE_URL}/contact`, formData)
-      .then((response) => response.data)
-      .then((data) => {
-        if (data === 'success') {
-          setName('');
-          setEmail('');
-          setSubject('');
-          setMessage('');
-        }
+    try {
+      const response = await fetch('https://formspree.io/f/xyyaqvrk', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+        },
+        body: formData,
       });
+
+      if (response.ok) {
+        setName('');
+        setEmail('');
+        setSubject('');
+        setMessage('');
+      }
+    }
+    catch (error) {
+      console.error(error);
+    }
   };
 
   return (
-    <form ref={contactFormRef} className="form" onSubmit={handleSubmit}>
-      <p className="form-p">Si vous souhaitez me contacter remplissez le formulaire de contact ci-dessous, ou rendez-vous sur mon <a className="form-a" href="https://www.linkedin.com/in/fred-meziere/" alt="lien vers Linkedin">linkedIn</a></p>
+    <form className="form" onSubmit={handleSubmit}>
+      <p>Si vous souhaitez nous contacter remplissez le formulaire de contact ci-dessous, et nous répondrons au plus vite</p>
       <div>
         <label htmlFor="name">Votre nom</label>
         <input type="text" id="name" placeholder="Votre nom / prénom ici" value={name} onChange={(event) => setName(event.target.value)} />
