@@ -4,7 +4,7 @@ function Parcours() {
   return (
     <div className="parcours">
       <div className="parcours-div">
-        <h1 className="parcours-h1">~~ Mon parcours ~~</h1>
+        <h1 className="parcours-h1"> Mon parcours </h1>
         <br />
         <p className="parcours-p">
           J'ai effectuer ma reconversion apres avoir chercher ma voie professionnelle.

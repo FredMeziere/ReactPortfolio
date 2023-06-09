@@ -2,7 +2,7 @@ import './styles.scss';
 
 function Presentation() {
   return (
-    <div className="presentation">
+    <div id="presentation" className="presentation">
       <h1 className="presentation-h1">Mon profil</h1>
       <p className="presentation-p">Je m'appelle Fred Meziere, j'ai 25 ans, je vis a Aubagne dans le sud.
         <br />

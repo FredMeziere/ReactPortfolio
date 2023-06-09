@@ -30,14 +30,14 @@
     animation-iteration-count: infinite;
     transition: none;
 }
-@keyframes clignoter {
+ @keyframes clignoter {
   0%   { opacity:1; }
   40%   {opacity:0; }
   100% { opacity:1; }
 }
 
 
-  &-span-fail {
+&-span-fail {
     color: vars.$color2;
     font-size: 24px;
     font-weight: 900;
@@ -46,12 +46,16 @@
     animation-iteration-count: 2;
     transition: none;
 }
-@keyframes clignoter {
+ @keyframes clignoter {
   0%   { opacity:1; }
   40%   {opacity:0; }
   100% { opacity:1; }
 }
 
+&-span-linkedin {
+  color: vars.$color5;
+  font-weight: 900;
+}
 
   & div {
     display: flex;
@@ -61,7 +65,7 @@
     margin-top: 25px;
 
     & label {
-      margin-bottom: 7px;
+      margin-bottom: 15px;
       font-weight: 900;
       color: vars.$color2;
       font-size: 22px;

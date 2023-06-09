@@ -44,13 +44,13 @@ function Contact() {
       setTimeout(() => {
         setIsEmailSent(false);
         setIsErrorMessageVisible(false);
-      }, 10000); // 10 secondes
+      }, 10000);
     }
   };
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
-      <p className="form-p">Si vous souhaitez me coacter, faites le via ce formulaire ou via LinkedIn</p>
+    <form id="recrutezmoi" className="form" onSubmit={handleSubmit}>
+      <p className="form-p">Si vous souhaitez me contacter, faites le via ce formulaire ou via <span className="form-span-linkedin">LinkedIn</span></p>
       <div>
         <label htmlFor="name">Votre nom</label>
         <input type="text" id="name" placeholder="Votre nom / prénom ici" value={name} onChange={(event) => setName(event.target.value)} />

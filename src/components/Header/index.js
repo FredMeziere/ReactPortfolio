@@ -11,11 +11,11 @@ function Header() {
         </a>
       </div>
       <div className="navbar">
-        <p className="navbar-plink1"><a className="navbar-a1" href="/main">Accueil</a></p>
-        <p className="navbar-plink2-3"><a className="navbar-a2" href="/apropos">Mon parcours</a></p>
-        <p className="navbar-plink2-3"><a className="navbar-a3" href="/realisations">Mes réalisations</a></p>
-        <p className="navbar-plink2-3"><a className="navbar-a3" href="/realisations">Mon profil</a></p>
-        <p className="navbar-plink4"><a className="navbar-a4" href="/Recrutez-moi">Contactez-Moi</a></p>
+        <p className="navbar-plink1"><a className="navbar-a1" href="#">Accueil</a></p>
+        <p className="navbar-plink2-3"><a className="navbar-a2" href="#skills">Mes Compétences</a></p>
+        <p className="navbar-plink2-3"><a className="navbar-a3" href="#realisation">Mes réalisations</a></p>
+        <p className="navbar-plink2-3"><a className="navbar-a3" href="#presentation">Mon profil</a></p>
+        <p className="navbar-plink4"><a className="navbar-a4" href="#recrutezmoi">Contactez-Moi</a></p>
       </div>
     </div>
   );

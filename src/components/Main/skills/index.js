@@ -14,7 +14,7 @@ import sqitch from '../../../assets/iconskills/sqitch.png';
 
 function Skills() {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <div className="skills-competences">
         <h2 className="skills-competences-h1">
           Mes competences techniques de développement

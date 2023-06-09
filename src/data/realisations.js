@@ -14,7 +14,7 @@ export default [
     id: 2,
     title: 'Portfolio v1',
     miniature: 'https://i.ibb.co/zJxh9Zj/v1.webp',
-    technos: 'Html, css/sass, Jabvascript',
+    technos: 'Html, sass, Jabvascript',
     githubFront: 'https://github.com/FredMeziere/Portfolio',
     description: 'Premiere version de mon Porfolio, avant mon apprentisage en autodidacte de React',
   },
@@ -23,7 +23,7 @@ export default [
     id: 3,
     title: 'Space invader',
     miniature: 'https://i.ibb.co/8MF285K/spaceinvader.webp',
-    technos: 'Html, css/sass, Jabvascript',
+    technos: 'Html, sass, Jabvascript',
     githubFront: 'https://github.com/FredMeziere/Tp_SpaceInvader/tree/main',
     description: 'Petit jeu de coloriage de pixel',
   },
@@ -32,9 +32,19 @@ export default [
     id: 4,
     title: 'Convertisseur',
     miniature: 'https://i.ibb.co/LC56w5G/converter.webp',
-    technos: 'React, Javascript, sass/css',
+    technos: 'React, Javascript, sass',
     githubFront: 'https://github.com/FredMeziere/converterWithReact',
     description: 'Petit projet pour l\'apprentissage de React, Use state, Proptypes',
+  },
+
+  {
+    id: 5,
+    title: 'E-commerce HomeNails',
+    miniature: 'https://i.ibb.co/xSJjFGg/Homenailss.webp',
+    technos: 'React, Javascript, sass, axios...',
+    githubFront: 'https://github.com/FredMeziere/Homenails-Front',
+    githubBack: 'https://github.com/FredMeziere/Homenails-Back',
+    description: 'Projet de site E-commerce de prothése ongulaire en cours de réalisation en groupe de 4',
   },
 
 ];
