@@ -13,9 +13,11 @@ function Presentation() {
         <br />
         J'ai eu la chance de pouvoir voyager a l'étranger pendant pres de 6 années <span className="presentation-span">(2ans en Afrique et +5 années en Allemagne)</span>. Ce qui m'a permis de découvrir d'autres pays et cultures.
         <br />
-        <img className="presentation-img" src="./photo/photo.JPG" alt="Fred Meziere" />
+      </p>
+      <img className="presentation-img" src="./photo/photo.JPG" alt="Fred Meziere" />
+      <p className="presentation-p">
         <br />
-        J'adore le sport, je pratique la course à pied et randonnée.
+        J'adore le <span className="presentation-span">sport, je pratique la course à pied et randonnée.</span>
         <br />
         J'adore les jeux vidéos et aussi coder par simple plaisir de découvrir de nouvelles choses.
         <br />

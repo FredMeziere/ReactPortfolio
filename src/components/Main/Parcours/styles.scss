@@ -10,6 +10,7 @@
     margin: auto;
     margin-bottom: 50px;
     width: 80%;
+    border: 10px solid vars.$color5;
 
 &-h1 {
     font-size: vars.$fontsize26;
@@ -21,9 +22,9 @@
 &-p {
     padding: 5px;
     line-height: 2rem;
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: auto;
+    text-align: justify;
+    width: 80%;
     color: vars.$color2;
 
     &-span {

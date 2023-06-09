@@ -12,6 +12,7 @@
     margin: auto;
     margin-bottom: 50px;
     width: 80%;
+    border: 10px solid vars.$color5;
 
 &-h1 {
     font-size: vars.$fontsize26;
@@ -22,9 +23,10 @@
 
 &-p {
     line-height: 2em;
-    margin: 20px;
+    margin: auto;
+    text-align: justify;
+    width: 80%;
     font-size: 16px;
-    text-align: center;
     color: vars.$color2;
 }
 
@@ -38,7 +40,7 @@
     width: 10%;
     border-radius: 25%;
     background-color: vars.$color5;
-    padding: 10px;
+    padding: 5px;
 }
 
 }
