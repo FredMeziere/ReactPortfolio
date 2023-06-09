@@ -3,18 +3,56 @@ export default [
     id: 1,
     title: 'O\'stretch',
     url: 'https://o-stretch-front.vercel.app/',
-    // miniature: ,
-    technos: 'React, Sass, NodeJS, Javascript, PostgreSQL, Sequelize',
-    githubrepos: ['https://github.com/O-clock-Maya/projet-06-o-stretch-front', 'https://github.com/O-clock-Maya/projet-06-o-stretch-back'],
-    description: 'Il s\'agit du premier projet dit professionnel, projet effectuer en groupe pendant 1 mois pour la fin de notre formation. Réalisation de AàZ du cachier des charges au déploiment',
+    miniature: 'https://i.ibb.co/5GxhDYh/ostretch.webp',
+    technos: 'React, Sass,  Javascript, PostgreSQL, Sequelize',
+    githubFront: 'https://github.com/O-clock-Maya/projet-06-o-stretch-front',
+    githubBack: 'https://github.com/O-clock-Maya/projet-06-o-stretch-back',
+    description: 'Il s\'agit du premier projet dit professionnel. Réalisation de AàZ du cachier des charges au déploiment',
   },
 
   {
     id: 2,
     title: 'Portfolio v1',
-    // miniature;,
-    technos: 'Html, css,sass, NodeJS, Jabvascript',
-    githubrepos: ['https://github.com/O-clock-Maya/projet-06-o-stretch-front', 'https://github.com/O-clock-Maya/projet-06-o-stretch-back'],
+    miniature: 'https://i.ibb.co/zJxh9Zj/v1.webp',
+    technos: 'Html, css/sass, Jabvascript',
+    githubFront: 'https://github.com/FredMeziere/Portfolio',
     description: 'Premiere version de mon Porfolio, avant mon apprentisage en autodidacte de React',
   },
+
+  {
+    id: 3,
+    title: 'Space invader',
+    miniature: 'https://i.ibb.co/8MF285K/spaceinvader.webp',
+    technos: 'Html, css/sass, Jabvascript',
+    githubFront: 'https://github.com/FredMeziere/Tp_SpaceInvader/tree/main',
+    description: 'Petit jeu de coloriage de pixel',
+  },
+
+  {
+    id: 4,
+    title: 'Convertisseur',
+    url: 'https://github.com/FredMeziere/converterWithReact',
+    miniature: 'https://i.ibb.co/LC56w5G/converter.webp',
+    technos: 'React, Javascript, sass/css',
+    githubFront: 'https://github.com/FredMeziere/converterWithReact',
+    description: 'Petit projet pour l\'apprentissage de React, Use state, Proptypes',
+  },
+
 ];
+
+/*
+----------------------
+
+        Vierge
+
+----------------------
+*/
+
+// id: ,
+// title: ,
+// url: ,
+// miniature: ,
+// technos: ,
+// githubFront: ,
+// githubBack: ,
+// description:,

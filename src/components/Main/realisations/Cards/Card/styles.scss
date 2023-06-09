@@ -1,0 +1,55 @@
+@use 'src/styles/vars';
+
+.card{
+  border: solid vars.$color5 4px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 30%;
+  box-shadow: 0 0 20px vars.$color3;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  z-index: 1;
+  
+  &:hover {
+      transform: translateY(-10px);
+  }
+
+    &-img{
+      width: 100%;
+      border-radius: 15px;
+      border: solid vars.$color5 ;
+    }
+
+    &-title{
+      font-size: 2rem;
+      font-weight: bold;
+      color: vars.$color5;
+      
+    }
+
+    &-text{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      line-height: 25px;
+    }
+
+    &-subtitle{
+      font-size: 1.5rem;
+      color: vars.$color5;
+    }
+
+    &-github{
+      color: vars.$color2;
+      font-size: 2rem;
+    }
+
+    &-allgithub{
+      display: flex;
+      justify-content: center;
+    }
+}
