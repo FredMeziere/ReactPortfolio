@@ -8,6 +8,7 @@ import Introduction from './Introduction';
 import Skills from './Skills';
 import Presentation from './Presentation';
 import Parcours from './Parcours';
+import Realisations from './Realisations';
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <Skills />
       <Parcours />
       <Presentation />
+      <Realisations />
     </div>
   );
 }

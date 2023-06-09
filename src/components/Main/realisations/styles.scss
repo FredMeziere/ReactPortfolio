@@ -1,0 +1,20 @@
+@use "src/styles/vars";
+
+.realisations {
+
+    color: vars.$color2;
+    text-align: center;
+    background-color: vars.$color1;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 900;
+    width: 80%;
+
+&-h1 {
+    color: vars.$color5;
+}
+}
