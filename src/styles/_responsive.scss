@@ -1,11 +1,80 @@
 @use "src/styles/vars";
 
-@media screen and (max-width:420px){
-    .app{
-      .header{
-        .header-h1span{
-            font-size: vars.$fontsizemobile24;
+@media screen and (max-width:420px) {
+  .app {
+    .header {
+      .header-h1span {
+        font-size: vars.$fontsizemobile16;
+      }
+
+      .header-h1spanm {
+        font-size: vars.$fontsizemobile16;
+      }
+    }
+
+    .main {
+      .introduction {
+        &-h2 {
+          font-size: vars.$fontsizemobile16;
+          padding-top: 100px;
+          padding-bottom: 100px;
+          margin: 40px;
+        }
+
+        &-span1 {
+          font-size: vars.$fontsizemobile16;
+        }
+
+        &-span2 {
+          font-size: vars.$fontsizemobile16;
+          padding: 5px;
+        }
+        &-spanpoint1 {
+          font-size: vars.$fontsizemobile24;
+          
+        }
+        &-spanpoint2 {
+          font-size: vars.$fontsizemobile24;
+        }
+        &-spanpoint3 {
+          font-size: vars.$fontsizemobile24;
         }
       }
     }
+
+    .socialmedia {
+      width: 50px;
+
+      &-p {
+        $fontsizemobile12: 12px;
+      }
+
+      &-img {
+        width: 100%;
+      }
+    }
+
+    .skills{
+      &-competences{
+        margin: 40px;
+        &-h1{
+          font-size: vars.$fontsizemobile16;
+          padding: 10px;
+        }
+        &-h3{
+
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  .header {
+    .navbar {
+      display: none;
+      /* Masquer la navbar en version mobile */
+    }
+  }
 }

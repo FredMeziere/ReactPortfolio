@@ -10,6 +10,7 @@ function Header() {
           </h1>
         </a>
       </div>
+
       <div className="navbar">
         <p className="navbar-plink1"><a className="navbar-a1" href="#">Accueil</a></p>
         <p className="navbar-plink2-3"><a className="navbar-a2" href="#skills">Mes Compétences</a></p>
