@@ -1,6 +1,6 @@
 @use "src/styles/vars";
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:320px) {
   .app {
 
     .socialmedia {
@@ -176,17 +176,19 @@
       }
     
       .cards {
-        width: 90%;
-        margin: 0 auto; 
         display: flex;
-        flex-wrap: wrap; 
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center; /* Center horizontally */
+        align-items: flex-start; /* Align cards to the top */
         gap: 1rem;
         margin-top: 5px;
     
         .card {
-          width: 100%;
+          width: 100%; /* Adjust card width */
           gap: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center; /* Center content horizontally */
     
           &-title {
             font-size: vars.$fontsizemobile16;
@@ -212,11 +214,11 @@
     }
 
     .form {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding: 15px;
       border: 5px solid vars.$color5;
       width: 90%;
       margin-bottom: 0px;
+      
 
       &-h1 {
         font-size: vars.$fontsizemobile16;
@@ -230,10 +232,16 @@
         padding: 0px;
         text-align: center;
       }
-
-      &-button {
-        width: fit-content;
+      & label {
+        font-size: vars.$fontsizemobile14;
       }
+
+      & input {
+        width: auto;
+      }
+       &-button {
+        width: auto;
+       }
     }
 
     .footer {
@@ -250,8 +258,6 @@
 }
 
 
-
-
 /*
 ------------------------------------------------------------------
 
@@ -260,7 +266,7 @@
 ------------------------------------------------------------------
 */
 
-@media screen and (min-width: 350px) and (max-width:440px) {
+@media screen and (min-width: 320px) and (max-width:440px) {
   .app {
     .header {
       display: flex;
@@ -424,26 +430,45 @@
       margin-bottom: 20px;
       border: 5px solid vars.$color5;
       width: 90%;
-
+    
       &-h1 {
         font-size: vars.$fontsizemobile16;
         padding: 10px;
       }
-
+    
       .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center horizontally */
+        align-items: flex-start; /* Align cards to the top */
         gap: 1rem;
         margin-top: 5px;
-
+    
         .card {
-          width: 100%;
+          width: 100%; /* Adjust card width */
           gap: 0.5rem;
-
+          display: flex;
+          flex-direction: column;
+          align-items: center; /* Center content horizontally */
+    
           &-title {
             font-size: vars.$fontsizemobile16;
           }
-
+    
           &-subtitle {
             font-size: vars.$fontsizemobile14;
+          }
+    
+          &-description {
+            font-size: vars.$fontsizemobile12;
+          }
+    
+          &-technos {
+            display: none;
+          }
+    
+          &-img {
+            width: 100%;
           }
         }
       }
@@ -472,6 +497,9 @@
       &-button {
         width: fit-content;
       }
+      & label {
+        font-size: vars.$fontsizemobile16;
+      }
     }
 
     .footer {
@@ -495,11 +523,26 @@
 */
 
 
-@media (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header {
     .navbar {
       display: none;
-      /* Masquer la navbar en version mobile */
+    }
+    .cards {
+      justify-content: unset;
+      gap: unset;
+      margin: unset;
+      margin-top: unset;
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .cards {
+    
+    &-button {
+      display: none;
     }
   }
 }
