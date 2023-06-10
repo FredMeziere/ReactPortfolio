@@ -14,13 +14,14 @@ function Presentation() {
       </p>
       <img className="presentation-img" src="./photo/photo.JPG" alt="Fred Meziere" />
       <p className="presentation-p">
-        <br />
         J'adore le <span className="presentation-span">sport, je pratique la course à pied et randonnée.</span>
         Ainsi que les jeux vidéos mais aussi coder par simple plaisir de découvrir de nouvelles choses fonctionnalités.
         Je suis aussi intéressé par les IA et le machine learning.
-        <br />
+      </p>
+      <p className="presentation-p">
         Je fais de la photo dans les fetes foraines et parc (avec gestionde page facebook).
-        <br />
+      </p>
+      <p className="presentation-p">
         Je n'aime pas me mettre en avant, mais mes qualités selon moi seraient d'etre patient, à l'écoute et extrement curieux ( je voudrais tout faire et tout voir !)
       </p>
     </div>
