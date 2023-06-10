@@ -14,7 +14,7 @@ function Presentation() {
       </p>
       <img className="presentation-img" src="./photo/photo.JPG" alt="Fred Meziere" />
       <p className="presentation-p">
-        J'adore le <span className="presentation-span">sport, je pratique la course à pied et randonnée.</span>
+        J'adore le <span className="presentation-span">sport, je pratique la course à pied</span> et la randonnée.
         Ainsi que les jeux vidéos mais aussi coder par simple plaisir de découvrir de nouvelles choses fonctionnalités.
         Je suis aussi intéressé par les IA et le machine learning.
       </p>

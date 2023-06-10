@@ -1,18 +1,27 @@
 @use "src/styles/vars";
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:300px) {
   .app {
+
+    .socialmedia {
+      display: none;
+    }
+
     .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       &-h1 {
-        font-size: vars.$fontsizemobile16;
+        font-size: vars.$fontsizemobile20;
       }
 
       .header-h1span {
-        font-size: vars.$fontsizemobile16;
+        font-size: vars.$fontsizemobile20;
       }
 
       .header-h1spanm {
-        font-size: vars.$fontsizemobile16;
+        font-size: vars.$fontsizemobile20;
       }
     }
 
@@ -20,18 +29,21 @@
       .introduction {
         &-h2 {
           font-size: vars.$fontsizemobile16;
-          padding-top: 100px;
-          padding-bottom: 100px;
+          padding-top: 80px;
+          padding-bottom: 80px;
           border: 5px solid vars.$color5;
           width: 90%;
+          margin-bottom: 20px;
+
         }
 
         &-span1 {
-          font-size: vars.$fontsizemobile16;
+          font-size: vars.$fontsizemobile14;
+          line-height: 1.4rem;
         }
 
         &-span2 {
-          font-size: vars.$fontsizemobile16;
+          font-size: vars.$fontsizemobile14;
           padding: 5px;
         }
 
@@ -50,9 +62,9 @@
       }
     }
 
-    .button{
-      &-a{
-      display: none;
+    .button {
+      &-a {
+        display: none;
       }
     }
 
@@ -64,7 +76,262 @@
       }
 
       &-img {
-        width: 100%;
+        width: 90%;
+      }
+    }
+
+    .skills {
+      &-competences {
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 5px solid vars.$color5;
+        width: 90%;
+
+        &-h1 {
+          font-size: vars.$fontsizemobile14;
+          padding: 10px;
+        }
+
+        &-h3 {
+          font-size: vars.$fontsizemobile14;
+        }
+
+        &-image {
+          width: 50%;
+        }
+
+        &-frontback {
+          margin-top: 40px;
+          margin-bottom: 0px;
+        }
+
+        &-p {
+          font-size: vars.$fontsizemobile12;
+          line-height: 1.2rem;
+          margin-bottom: 10px;
+          padding: 0px;
+          text-align: start;
+        }
+      }
+    }
+
+    .parcours {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile16;
+        padding: 10px;
+      }
+
+      &-p {
+        font-size: vars.$fontsizemobile12;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: start;
+      }
+    }
+
+    .presentation {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile16;
+        padding: 10px;
+      }
+
+      &-p {
+        font-size: vars.$fontsizemobile12;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: start;
+      }
+
+      &-img {
+        width: 50%;
+        margin-bottom: 10px;
+      }
+    }
+
+    .realisations {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+    
+      &-h1 {
+        font-size: vars.$fontsizemobile16;
+        padding: 10px;
+      }
+    
+      .cards {
+        width: 90%;
+        margin: 0 auto; 
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 5px;
+    
+        .card {
+          width: 100%;
+          gap: 0.5rem;
+    
+          &-title {
+            font-size: vars.$fontsizemobile16;
+          }
+    
+          &-subtitle {
+            font-size: vars.$fontsizemobile14;
+          }
+    
+          &-description {
+            font-size: vars.$fontsizemobile12;
+          }
+    
+          &-technos {
+            display: none;
+          }
+    
+          &-img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .form {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+      margin-bottom: 0px;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile16;
+        padding: 10px;
+      }
+
+      &-p {
+        font-size: vars.$fontsizemobile12;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: center;
+      }
+
+      &-button {
+        width: fit-content;
+      }
+    }
+
+    .footer {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      &-p {
+        font-size: vars.$fontsizemobile16;
+        padding: 0px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+
+
+/*
+------------------------------------------------------------------
+
+                    max-width:440px
+
+------------------------------------------------------------------
+*/
+
+@media screen and (min-width: 350px) and (max-width:440px) {
+  .app {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile24;
+      }
+
+      .header-h1span {
+        font-size: vars.$fontsizemobile24;
+      }
+
+      .header-h1spanm {
+        font-size: vars.$fontsizemobile24;
+      }
+    }
+
+    .main {
+      .introduction {
+        &-h2 {
+          font-size: vars.$fontsizemobile16;
+          padding-top: 100px;
+          padding-bottom: 100px;
+          border: 5px solid vars.$color5;
+          width: 90%;
+          margin-bottom: 20px;
+
+        }
+
+        &-span1 {
+          font-size: vars.$fontsizemobile14;
+          line-height: 1.4rem;
+        }
+
+        &-span2 {
+          font-size: vars.$fontsizemobile14;
+          padding: 5px;
+        }
+
+        &-spanpoint1 {
+          font-size: vars.$fontsizemobile24;
+
+        }
+
+        &-spanpoint2 {
+          font-size: vars.$fontsizemobile24;
+        }
+
+        &-spanpoint3 {
+          font-size: vars.$fontsizemobile24;
+        }
+      }
+    }
+
+    .button {
+      &-a {
+        display: none;
+      }
+    }
+
+    .socialmedia {
+      width: 60px;
+
+      &-p {
+        font-size: vars.$fontsizemobile12;
+      }
+
+      &-img {
+        width: 90%;
       }
     }
 
@@ -86,7 +353,7 @@
         }
 
         &-image {
-          width: 60%;
+          width: 50%;
         }
 
         &-frontback {
@@ -104,7 +371,7 @@
       }
     }
 
-    .parcours{
+    .parcours {
       padding-top: 10px;
       padding-bottom: 10px;
       margin-bottom: 20px;
@@ -115,16 +382,17 @@
         font-size: vars.$fontsizemobile16;
         padding: 10px;
       }
+
       &-p {
         font-size: vars.$fontsizemobile12;
-          line-height: 1.2rem;
-          margin-bottom: 10px;
-          padding: 0px;
-          text-align: start;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: start;
       }
     }
 
-    .presentation{
+    .presentation {
       padding-top: 10px;
       padding-bottom: 10px;
       margin-bottom: 20px;
@@ -135,13 +403,15 @@
         font-size: vars.$fontsizemobile16;
         padding: 10px;
       }
+
       &-p {
         font-size: vars.$fontsizemobile12;
-          line-height: 1.2rem;
-          margin-bottom: 10px;
-          padding: 0px;
-          text-align: start;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: start;
       }
+
       &-img {
         width: 60%;
         margin-bottom: 10px;
@@ -155,7 +425,7 @@
       border: 5px solid vars.$color5;
       width: 90%;
 
-      &-h1{
+      &-h1 {
         font-size: vars.$fontsizemobile16;
         padding: 10px;
       }
@@ -163,21 +433,66 @@
       .cards {
         gap: 1rem;
         margin-top: 5px;
+
         .card {
           width: 100%;
           gap: 0.5rem;
 
-        &-title {
-          font-size: vars.$fontsizemobile16;
+          &-title {
+            font-size: vars.$fontsizemobile16;
           }
-        &-subtitle {
-          font-size: vars.$fontsizemobile14;
+
+          &-subtitle {
+            font-size: vars.$fontsizemobile14;
+          }
         }
-        }
+      }
+    }
+
+    .form {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+      margin-bottom: 0px;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile16;
+        padding: 10px;
+      }
+
+      &-p {
+        font-size: vars.$fontsizemobile12;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: center;
+      }
+
+      &-button {
+        width: fit-content;
+      }
+    }
+
+    .footer {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      &-p {
+        font-size: vars.$fontsizemobile16;
+        padding: 0px;
+        text-align: center;
       }
     }
   }
 }
+
+/*
+------------------------------------------------------------------
+
+
+------------------------------------------------------------------
+*/
 
 
 @media (max-width: 767px) {

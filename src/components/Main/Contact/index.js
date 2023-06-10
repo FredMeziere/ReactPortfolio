@@ -68,7 +68,7 @@ function Contact() {
         <textarea id="message" placeholder="Votre message" value={message} onChange={(event) => setMessage(event.target.value)} />
       </div>
       <div>
-        <button type="submit">Envoyer mon message</button>
+        <button className="form-button" type="submit">Envoyer mon message</button>
       </div>
 
       {isEmailSent && (
