@@ -2,8 +2,6 @@
 
 import './styles.scss';
 
-/* Import des composants */
-
 import Introduction from './Introduction';
 import Skills from './Skills';
 import Presentation from './Presentation';
