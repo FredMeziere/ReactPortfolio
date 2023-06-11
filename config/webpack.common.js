@@ -14,8 +14,6 @@ module.exports = {
     paths.src + '/styles/index.scss',
     // JS
     paths.src + '/index.js',
-
-    paths.src + '/components/Main/',
   ],
   output: {
     path: paths.build,
