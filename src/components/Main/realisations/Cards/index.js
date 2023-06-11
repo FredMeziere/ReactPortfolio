@@ -5,7 +5,7 @@ import Card from './Card';
 import './styles.scss';
 
 function Cards({ datas }) {
-  const isMobile = useMediaQuery({ maxWidth: 420 });
+  const isMobile = useMediaQuery({ maxWidth: 480 });
   const [visibleCardIndex, setVisibleCardIndex] = useState(0);
 
   const handleNextCard = () => {
