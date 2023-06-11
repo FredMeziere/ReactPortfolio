@@ -60,6 +60,7 @@ module.exports = merge(common, {
     modules: true,
     builtAt: true,
     hash: true,
+    errorDetails: true,
   },
 
   optimization: {
