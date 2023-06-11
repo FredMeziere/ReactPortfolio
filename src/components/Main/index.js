@@ -4,12 +4,12 @@ import './styles.scss';
 
 /* Import des composants */
 
-import Introduction from './Introduction';
-import Skills from './Skills';
-import Presentation from './Presentation';
-import Parcours from './Parcours';
+import Introduction from '../Introduction';
+import Skills from '../Skills';
+import Presentation from '../Presentation';
+import Parcours from '../Parcours';
 import Realisations from './Realisations';
-import Contact from './Contact';
+import Contact from '../Contact';
 
 function Main() {
   return (
