@@ -61,7 +61,6 @@
         }
       }
     }
-
     .button {
       &-a {
         display: none;
@@ -178,17 +177,26 @@
       .cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Center horizontally */
-        align-items: flex-start; /* Align cards to the top */
+        justify-content: center;
+        align-items: flex-start;
         gap: 1rem;
         margin-top: 5px;
-    
-        .card {
-          width: 100%; /* Adjust card width */
-          gap: 0.5rem;
-          display: flex;
-          flex-direction: column;
-          align-items: center; /* Center content horizontally */
+        margin: 0 auto;
+
+        &-button {
+          border: 3px solid vars.$color5;
+        }
+      
+      .card {
+        width: 90%; 
+        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      
     
           &-title {
             font-size: vars.$fontsizemobile16;
@@ -261,12 +269,12 @@
 /*
 ------------------------------------------------------------------
 
-                    max-width:440px
+               min-width: 320px / max-width:440px
 
 ------------------------------------------------------------------
 */
 
-@media screen and (min-width: 320px) and (max-width:440px) {
+@media screen and (min-width: 320px) and (max-width: 440px) {
   .app {
     .header {
       display: flex;
@@ -439,17 +447,25 @@
       .cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Center horizontally */
-        align-items: flex-start; /* Align cards to the top */
+        justify-content: center;
+        align-items: flex-start;
         gap: 1rem;
         margin-top: 5px;
-    
-        .card {
-          width: 100%; /* Adjust card width */
-          gap: 0.5rem;
-          display: flex;
-          flex-direction: column;
-          align-items: center; /* Center content horizontally */
+        margin: 0 auto;
+
+        &-button {
+          border: 3px solid vars.$color5;
+        }
+      
+      .card {
+        width: 90%; 
+        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     
           &-title {
             font-size: vars.$fontsizemobile16;
@@ -494,12 +510,13 @@
         text-align: center;
       }
 
-      &-button {
-        width: fit-content;
-      }
       & label {
         font-size: vars.$fontsizemobile16;
       }
+
+      &-button {
+        width: auto;
+       }
     }
 
     .footer {
@@ -518,6 +535,7 @@
 /*
 ------------------------------------------------------------------
 
+               min-width: 440px / max-width:440px
 
 ------------------------------------------------------------------
 */
