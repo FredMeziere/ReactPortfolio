@@ -2,12 +2,12 @@
 
 import './styles.scss';
 
-import Introduction from './Introduction';
+import Introduction from '/Introduction';
 import Skills from './Skills';
-import Presentation from './Presentation';
-import Parcours from './Parcours';
-import Realisations from './Realisations';
-import Contact from './Contact';
+import Presentation from '/Presentation';
+import Parcours from '/Parcours';
+import Realisations from '/Realisations';
+import Contact from '/Contact';
 
 function Main() {
   return (
