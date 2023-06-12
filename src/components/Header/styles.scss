@@ -1,28 +1,28 @@
 @use "src/styles/vars";
 
 .header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
 
-&-div {
-        margin-top: 25px;
-    }
+  &-div {
+    margin-top: 25px;
+  }
 
-&-h1 {
+  &-h1 {
     font-weight: bolder;
     font-size: 32px;
     color: vars.$color5;
-}
+  }
 
-&-h1color {
+  &-h1color {
     text-decoration: none;
-}
+  }
 
-&-h1span {
+  &-h1span {
     background: vars.$color5;
     color: vars.$color2;
     font-size: 48px;
@@ -30,41 +30,33 @@
     border-radius: 5px;
     margin-left: 10px;
     margin-top: 10px;
-}
+  }
 
-&-h1point {
+  &-h1point {
     color: vars.$color5;
     font-size: 32px;
     border-radius: 5px;
-}
+  }
 
-&-h1spanm {
+  &-h1spanm {
     background: vars.$color5;
     color: vars.$color2;
     font-size: 48px;
     padding: 5px;
     border-radius: 5px;
     margin-top: 10px;
+  }
 }
-}
-
-/* 
------------------------------------------------------------------------------
-
-                                Partie Navbar
-
------------------------------------------------------------------------------
- */
 
 .navbar {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-right: 15px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-right: 15px;
 
-&-plink1 {
+  &-plink1 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
@@ -73,25 +65,24 @@
     background-color: vars.$color5;
     color: vars.$color2;
     border-radius: 5px;
-}
 
-&-plink1:hover{
-    background-color: vars.$color1;
-    color: vars.$color3;
-    border-radius: 5px;
-    transition-delay: 0.15s;
-}
+    &:hover {
+      background-color: vars.$color1;
+      color: vars.$color3;
+      border-radius: 5px;
+      transition-delay: 0.15s;
+    }
+  }
 
-
-&-plink2-3 {
+  &-plink2-3 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 24px;
-}
+  }
 
-&-plink4 {
+  &-plink4 {
     margin-right: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -100,31 +91,34 @@
     font-size: 24px;
     background-color: vars.$color5;
     border-radius: 5px;
-}
+  }
 
-&-a1 {
+  &-a1 {
     color: vars.$color2;
     text-decoration: none;
     font-weight: 700;
-}
+  }
 
-&-a2 {
+  &-a2,
+  &-a3 {
     color: vars.$color5;
     text-decoration: none;
     font-weight: 700;
-}
+  }
 
-&-a3 {
-    color: vars.$color5;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-&-a4 {
+  &-a4 {
     border-radius: 5px;
     color: vars.$color2;
     font-weight: 700;
+  }
 }
 
+.navbar-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  height: 60px;
 }
 
