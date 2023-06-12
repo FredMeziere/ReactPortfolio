@@ -11,14 +11,15 @@
   margin-bottom: 50px;
 
   &-p {
-    font-size: 22px;
+    font-size: 24px;
     padding: 20px;
     color: vars.$color2;
+    font-weight: 600;
   }
 
   &-a {
     color: vars.$color5;
-    font-weight: 900;
+    font-weight: 500;
   }
   &-span-succes {
     color: vars.$color2;
@@ -65,9 +66,9 @@
 
     & label {
       margin-bottom: 15px;
-      font-weight: 900;
+      font-weight: 700;
       color: vars.$color2;
-      font-size: 22px;
+      font-size: 20px;
       cursor: default;
     }
 

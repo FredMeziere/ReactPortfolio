@@ -50,7 +50,7 @@ function Contact() {
 
   return (
     <form id="recrutezmoi" className="form" onSubmit={handleSubmit}>
-      <p className="form-p">Si vous souhaitez me contacter, faites le via ce formulaire ou via <span className="form-span-linkedin">LinkedIn</span></p>
+      <p className="form-p">Si vous souhaitez me contacter, faites le via ce formulaire ou via <span className="form-span-linkedin"><a href="https://www.linkedin.com/in/fred-meziere/">LinkedIn</a></span></p>
       <div>
         <label htmlFor="name">Votre nom</label>
         <input type="text" id="name" placeholder="Votre nom / prénom ici" value={name} onChange={(event) => setName(event.target.value)} />
