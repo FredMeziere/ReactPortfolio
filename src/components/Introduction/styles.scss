@@ -16,7 +16,6 @@
     font-weight: 900;
     margin-bottom: 50px;
     width: 80%;
-    border: 10px solid vars.$color5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -33,9 +32,9 @@
   }
 
 &-span2 {
-    color: vars.$color5;
+    color: vars.$color2;
     font-size: 32px;
-    background-color: vars.$color2;
+    background-color: vars.$color5;
     padding: 10px;
     border-radius: 5px;
     transition-delay: 1s;

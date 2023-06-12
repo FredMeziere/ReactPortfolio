@@ -25,7 +25,7 @@ export default [
     miniature: 'https://i.ibb.co/8MF285K/spaceinvader.webp',
     technos: 'Html, sass, Jabvascript',
     githubFront: 'https://github.com/FredMeziere/Tp_SpaceInvader/tree/main',
-    description: 'Petit jeu de coloriage de pixel',
+    description: 'Petit jeu de coloriage de pixel pour notre apprentissage de Js',
   },
 
   {

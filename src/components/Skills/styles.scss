@@ -22,11 +22,11 @@
     margin: auto;
     margin-bottom: 50px;
     width: 80%;
-    border: 10px solid vars.$color5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 
 &-h1 {
-    font-size: vars.$fontsize26;
+    font-size: 30px;
     color: vars.$color2;
     padding: 20px;
     font-weight: 900;
@@ -42,8 +42,8 @@
 
 &-h3 {
         color: vars.$color2;
-        font-size: 24px;
-        margin-bottom: 20px;
+        font-size: vars.$fontsizemobile24;
+        margin: 20px;
         font-weight: 900;
 }
 

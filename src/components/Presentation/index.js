@@ -4,6 +4,7 @@ function Presentation() {
   return (
     <div id="presentation" className="presentation">
       <h1 className="presentation-h1">Mon profil</h1>
+      <img className="presentation-img" src="./photo/photo.JPG" alt="Fred Meziere" />
       <p className="presentation-p">Je m'appelle Fred Meziere, j'ai 25 ans, je vis a Aubagne dans le sud.
         <br />
         J'ai toujours été baigné dans l'univers informatique.
@@ -12,7 +13,6 @@ function Presentation() {
         J'ai eu la chance de pouvoir voyager a l'étranger pendant pres de 6 années <span className="presentation-span">(2ans en Afrique et +5 années en Allemagne)</span>. Ce qui m'a permis de découvrir d'autres pays et cultures.
         <br />
       </p>
-      <img className="presentation-img" src="./photo/photo.JPG" alt="Fred Meziere" />
       <p className="presentation-p">
         J'adore le <span className="presentation-span">sport, je pratique la course à pied</span> et la randonnée.
         Ainsi que les jeux vidéos mais aussi coder par simple plaisir de découvrir de nouvelles choses fonctionnalités.

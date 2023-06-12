@@ -16,12 +16,12 @@ function Skills() {
   return (
     <div id="skills" className="skills">
       <div className="skills-competences">
-        <h2 className="skills-competences-h1">
+        <h1 className="skills-competences-h1">
           Mes competences techniques de développement
-        </h2>
+        </h1>
         <div className="skills-competences-frontback">
           <div className="skills-competences-front">
-            <h3 className="skills-competences-h3">Front-end</h3>
+            <h2 className="skills-competences-h3">Front-end</h2>
             <div className="skills-competences-icons">
               <img className="skills-competences-image" src={html} alt="html logo" />
               <img className="skills-competences-image" src={css} alt="css logo" />
@@ -31,7 +31,7 @@ function Skills() {
             </div>
           </div>
           <div className="skills-competences-back">
-            <h3 className="skills-competences-h3">Back-end</h3>
+            <h2 className="skills-competences-h3">Back-end</h2>
             <div className="skills-competences-icons">
               <img className="skills-competences-image" src={express} alt="express logo" />
               <img className="skills-competences-image" src={sql} alt="sql logo" />

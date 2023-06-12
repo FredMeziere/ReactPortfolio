@@ -5,11 +5,11 @@ body::-webkit-scrollbar {
   }
 
 body::-webkit-scrollbar-track {
-  background-color: vars.$color5;    
+  background-color: vars.$color1;    
   }
   
 body::-webkit-scrollbar-thumb {
-    background-color: vars.$color1;   
+    background-color: vars.$color5;   
     border-radius: 20px;       
-    border: 3px solid vars.$color1;  
+    border: 3px solid vars.$color5;  
   }
