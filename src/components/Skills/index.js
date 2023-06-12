@@ -1,16 +1,16 @@
 import './styles.scss';
 
-import html from '../../../assets/iconskills/html.png';
-import css from '../../../assets/iconskills/css.png';
-import js from '../../../assets/iconskills/js.png';
-import sass from '../../../assets/iconskills/sass.png';
-import express from '../../../assets/iconskills/express.png';
-import node from '../../../assets/iconskills/node.png';
-import mongo from '../../../assets/iconskills/mongo.png';
-import react from '../../../assets/iconskills/react.png';
-import sql from '../../../assets/iconskills/sql.png';
-import boot from '../../../assets/iconskills/boot.png';
-import sqitch from '../../../assets/iconskills/sqitch.png';
+import html from '../../assets/iconskills/html.png';
+import css from '../../assets/iconskills/css.png';
+import js from '../../assets/iconskills/js.png';
+import sass from '../../assets/iconskills/sass.png';
+import express from '../../assets/iconskills/express.png';
+import node from '../../assets/iconskills/node.png';
+import mongo from '../../assets/iconskills/mongo.png';
+import react from '../../assets/iconskills/react.png';
+import sql from '../../assets/iconskills/sql.png';
+import boot from '../../assets/iconskills/boot.png';
+import sqitch from '../../assets/iconskills/sqitch.png';
 
 function Skills() {
   return (

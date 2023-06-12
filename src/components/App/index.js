@@ -1,9 +1,14 @@
 import Footer from '../Footer';
 import Header from '../Header';
 import SocialMedia from '../SocialMedia';
-import Main from '../Main';
 import ButtonUp from '../ButtonUp';
 import './scrollbar.scss';
+import Introduction from '../Introduction';
+import Skills from '../Skills';
+import Presentation from '../Presentation';
+import Parcours from '../Parcours';
+import Realisations from '../Realisations';
+import Contact from '../Contact';
 
 // == Composant
 function App() {
@@ -11,7 +16,12 @@ function App() {
     <div className="app">
       <Header />
       <SocialMedia />
-      <Main />
+      <Introduction />
+      <Skills />
+      <Parcours />
+      <Presentation />
+      <Realisations />
+      <Contact />
       <Footer />
       <ButtonUp />
     </div>

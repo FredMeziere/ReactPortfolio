@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './styles.scss';
-import realData from '../../../data/realisations';
+import realData from '../../data/realisations';
 import Cards from './Cards';
 
 function Realisation() {
