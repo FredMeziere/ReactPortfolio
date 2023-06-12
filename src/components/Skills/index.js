@@ -45,19 +45,19 @@ function Skills() {
         <div className="skills-competences-devops">
           <h3 className="skills-competences-h3">Autres connaissances / outils </h3>
           <p className="skills-competences-p">
-            <span className="skills-competences-span">Gestion de projet: </span>Utilisation de divers outils de gestion de projets que ce soit pour le versionning Git/Github ou encore la gestion de projet et de l'avancé des équipes Notion.
+            <span className="skills-competences-span">Gestion de projet: </span>Utilisation de divers outils de gestion de projets que ce soit pour le versionning Git/Github ou encore la gestion de projet et de l'avancée des équipes Notion.
             <br />
-            <span className="skills-competences-span">Outils de discutions: </span>Utilisation d'outils pour la comunication que ce soit pour les discussions Discord / Teams / Slack / GMeet.
+            <span className="skills-competences-span">Outils de discussions: </span>Utilisation d'outils pour la comunication que ce soit pour les discussions Discord / Teams / Slack / GMeet.
             <br />
-            <span className="skills-competences-span">Machines virtuelles: </span>Pendant notre formation nous avons essentiellementutilisé Linux (Ubuntu) sous machine virtuelle via Virtual box. Sur mon temps libre j'essaie d'apprendre le fonctionnement et l'uilisation de docker sous windows et j'utilise aussi le multiboot windows/linux a titre personnel.
+            <span className="skills-competences-span">Machines virtuelles: </span>Pendant notre formation nous avons essentiellement utilisé Linux (Ubuntu) sous machine virtuelle via Virtual box. Sur mon temps libre j'essaie d'apprendre le fonctionnement et l'uilisation de docker sous windows et j'utilise aussi le multiboot windows/linux a titre personnel.
             <br />
             <span className="skills-competences-span">Wireframes/Maquettes: </span>Utilisation de Figma et Whismical pour la réalisation de maquettes ou de wireframe pour une présentation aux clients.
             <br />
-            <span className="skills-competences-span">MCD/MLD/Dictionnaire de données: </span>Je suis a l'aise avec la créations des différents documents relatifs a la base de données et en plus de mes connaissances en SQL et mongoDB, je sais aussi utiliser l'outil de "versionning" <span className="skills-competences-span">Sqitch</span>.
+            <span className="skills-competences-span">MCD/MLD/Dictionnaire de données: </span>Je suis à l'aise avec la créations des différents documents relatifs à la base de données et en plus de mes connaissances en SQL et mongoDB, je sais aussi utiliser l'outil de "versionning" <span className="skills-competences-span">Sqitch</span>.
           </p>
           <h3 className="skills-competences-h3">Langues</h3>
           <p className="skills-competences-p">
-            <span className="skills-competences-span">Anglais: </span> Je lis l'anglais et le comprends à l'oral, j'éprouve plus de difficultés a le parler. Mais je prends des cours via applis pour renforcer mes lacunes.
+            <span className="skills-competences-span">Anglais: </span> Je lis l'anglais et le comprends à l'oral, j'éprouve plus de difficultés à le parler. Mais je prends des cours via applis pour renforcer mes lacunes.
           </p>
         </div>
       </div>
