@@ -7,7 +7,7 @@ function Presentation() {
       <img className="presentation-img" src="./photo/photo.JPG" alt="Fred Meziere" />
       <p className="presentation-p">Je m'appelle Fred Meziere, j'ai 25 ans, je vis a Aubagne dans le sud.
         <br />
-        J'ai toujours été baigné dans l'univers informatique.
+        J'ai toujours baigné dans l'univers informatique.
         J'ai eu la chance d'avoir un ordinateur très tot, ce qui m'a sûrement donné par la suite l'envie de travailler dans l'informatique et plus tard encore m'a fait me reconvertir dans le développement web.
         <br />
         J'ai eu la chance de pouvoir voyager a l'étranger pendant prés de 6 années <span className="presentation-span">(2ans en Afrique et +5 années en Allemagne)</span>. Ce qui m'a permis de découvrir d'autres pays et cultures.

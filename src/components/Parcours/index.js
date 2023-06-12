@@ -22,7 +22,7 @@ function Parcours() {
           <span className="parcours-p-span">J'ai également obtenu une partie de mon titre professionnel DWWM (partie back-end) en mai 2023.</span>
         </p>
         <p className="parcours-p">
-          Je suis intéressé autant par le Front-end, que par le Back-end, mais je suis vraiment tombé sous le charme des bases de données, des scripts SQL et requetes, jointures et j'en passe.
+          Je suis intéressé autant par le Front-end, que par le Back-end, mais j'aime particulièrement charme des bases de données, des scripts SQL et requetes, jointures etc.
           Je ne suis pas fermé à l'intégration ou à tout autre langage que Javascript.
         </p>
 

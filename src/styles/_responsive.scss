@@ -1179,7 +1179,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
 
-        width: 90%;
+        width: 80%;
 
         &-h1 {
           font-size: vars.$fontsizemobile24;
@@ -1214,7 +1214,7 @@
       padding-bottom: 10px;
       margin-bottom: 20px;
 
-      width: 90%;
+      width: 80%;
 
       &-h1 {
         font-size: vars.$fontsizemobile24;
@@ -1235,7 +1235,7 @@
       padding-bottom: 10px;
       margin-bottom: 20px;
 
-      width: 90%;
+      width: 80%;
 
       &-h1 {
         font-size: vars.$fontsizemobile24;
@@ -1260,12 +1260,12 @@
       padding-top: 10px;
       padding-bottom: 10px;
       margin-bottom: 20px;
-
-      width: 90%;
+      width: 80%;
 
       &-h1 {
         font-size: vars.$fontsizemobile24;
         padding: 10px;
+        margin-bottom: 10px;
       }
 
       .cards {
@@ -1287,7 +1287,7 @@
         }
 
         .card {
-          width: 50%;
+          width: 45%;
           gap: 2rem;
           display: flex;
           flex-direction: column;
@@ -1323,8 +1323,7 @@
     .form {
       padding-top: 10px;
       padding-bottom: 10px;
-
-      width: 90%;
+      width: 80%;
       margin-bottom: 0px;
 
       &-h1 {
