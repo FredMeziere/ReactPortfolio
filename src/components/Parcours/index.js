@@ -11,7 +11,7 @@ function Parcours() {
           En passant par diverses experiences et métiers. Mon choix et mes envies se sont toujours portés vers l'informatique
           ( ayant depuis des années un <span className="parcours-p-span">bac informatique</span> en poche) je décide en juin 2022 de franchir le pas et
           d'entamer ma reconversion professionnelle au sein de l'<span className="parcours-p-span">école O'clock</span> pour six mois. Ce fut très enrichissant, intense.
-          Mais cette formation m'a permis d'acquerir le minimum de bases pour prétendre à travailler dans le développement web.
+          Mais cette formation m'a permis d'acquerir de bonnes bases pour travailler dans le développement web.
         </p>
         <p className="parcours-p">
           J'ai choisi la formation <span className="parcours-p-span">Fullstack Javascript</span> avec une spécialisation <span className="parcours-p-span">Back-end</span>.

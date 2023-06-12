@@ -17,7 +17,7 @@ function Skills() {
     <div id="skills" className="skills">
       <div className="skills-competences">
         <h1 className="skills-competences-h1">
-          Mes competences techniques de développement
+          Mes compétences techniques de développement
         </h1>
         <div className="skills-competences-frontback">
           <div className="skills-competences-front">
@@ -49,7 +49,7 @@ function Skills() {
             <br />
             <span className="skills-competences-span">Outils de discussions: </span>Utilisation d'outils pour la comunication que ce soit pour les discussions Discord / Teams / Slack / GMeet.
             <br />
-            <span className="skills-competences-span">Machines virtuelles: </span>Pendant notre formation nous avons essentiellement utilisé Linux (Ubuntu) sous machine virtuelle via Virtual box. Sur mon temps libre j'essaie d'apprendre le fonctionnement et l'uilisation de docker sous windows et j'utilise aussi le multiboot windows/linux a titre personnel.
+            <span className="skills-competences-span">Machines virtuelles: </span>Pendant notre formation nous avons essentiellement utilisé Linux (Ubuntu) sous machine virtuelle via Virtual box. Sur mon temps libre j'apprends le fonctionnement et l'uilisation de docker sous windows et j'utilise aussi le multiboot windows/linux a titre personnel.
             <br />
             <span className="skills-competences-span">Wireframes/Maquettes: </span>Utilisation de Figma et Whismical pour la réalisation de maquettes ou de wireframe pour une présentation aux clients.
             <br />
