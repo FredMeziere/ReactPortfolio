@@ -6,7 +6,7 @@ function Header() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 912px)');
+    const mediaQuery = window.matchMedia('(max-width: 1280px)');
     setIsMobile(mediaQuery.matches);
 
     const handleResize = () => {

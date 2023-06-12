@@ -1082,6 +1082,289 @@
     }
   }
 
+  /*
+------------------------------------------------------------------
+
+               min-width: 769px / max-width: 1024px
+
+------------------------------------------------------------------
+*/
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .app {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile36;
+      }
+
+      .header-h1span {
+        font-size: vars.$fontsizemobile36;
+      }
+
+      .header-h1spanm {
+        font-size: vars.$fontsizemobile36;
+      }
+
+      .mobilenavbar-ul {
+        padding: 30px;
+        font-size: vars.$fontsizemobile16;
+        line-height: 1.5rem;
+      }
+
+    }
+
+    .main {
+      .introduction {
+        &-h2 {
+          font-size: vars.$fontsizemobile36;
+          padding-top: 150px;
+          padding-bottom: 150px;
+          border: 5px solid vars.$color5;
+          width: 90%;
+          margin-bottom: 20px;
+
+        }
+
+        &-span1 {
+          font-size: vars.$fontsizemobile36;
+          line-height: 2.5rem;
+        }
+
+        &-span2 {
+          font-size: vars.$fontsizemobile36;
+          padding: 5px;
+        }
+
+        &-spanpoint1 {
+          font-size: vars.$fontsizemobile36;
+
+        }
+
+        &-spanpoint2 {
+          font-size: vars.$fontsizemobile36;
+        }
+
+        &-spanpoint3 {
+          font-size: vars.$fontsizemobile36;
+        }
+      }
+    }
+
+    .button {
+      width: 50%;
+
+      &-a {
+        font-size: vars.$fontsizemobile14;
+      }
+    }
+
+    .socialmedia {
+      width: 80px;
+
+      &-p {
+        font-size: vars.$fontsizemobile14;
+      }
+
+      &-img {
+        width: 90%;
+      }
+    }
+
+    .skills {
+      &-competences {
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 5px solid vars.$color5;
+        width: 90%;
+
+        &-h1 {
+          font-size: vars.$fontsizemobile24;
+          padding: 10px;
+        }
+
+        &-h3 {
+          font-size: vars.$fontsizemobile24;
+        }
+
+        &-image {
+          width: 50%;
+        }
+
+        &-frontback {
+          margin-top: 40px;
+          margin-bottom: 0px;
+        }
+
+        &-p {
+          font-size: vars.$fontsizemobile16;
+          line-height: 1.2rem;
+          margin-bottom: 10px;
+          padding: 0px;
+          text-align: start;
+        }
+      }
+    }
+
+    .parcours {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile24;
+        padding: 10px;
+      }
+
+      &-p {
+        font-size: vars.$fontsizemobile16;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: start;
+      }
+    }
+
+    .presentation {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile24;
+        padding: 10px;
+      }
+
+      &-p {
+        font-size: vars.$fontsizemobile16;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: start;
+      }
+
+      &-img {
+        width: 30%;
+        margin-bottom: 10px;
+      }
+    }
+
+    .realisations {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile24;
+        padding: 10px;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        margin-top: 5px;
+        margin: 0 auto;
+        width: 80%;
+
+        &-button {
+          border: 3px solid vars.$color5;
+        }
+
+        &-button {
+          display: none;
+        }
+
+        .card {
+          width: 50%;
+          gap: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          margin-left: auto;
+          margin-right: auto;
+          height: 400px;
+
+          &-title {
+            font-size: vars.$fontsizemobile24;
+          }
+
+          &-subtitle {
+            font-size: vars.$fontsizemobile16;
+          }
+
+          &-description {
+            font-size: vars.$fontsizemobile16;
+          }
+
+          &-technos {
+            display: none;
+          }
+
+          &-img {
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    .form {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 5px solid vars.$color5;
+      width: 90%;
+      margin-bottom: 0px;
+
+      &-h1 {
+        font-size: vars.$fontsizemobile20;
+        padding: 10px;
+      }
+
+      &-p {
+        font-size: vars.$fontsizemobile16;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: center;
+      }
+
+      & label {
+        font-size: vars.$fontsizemobile16;
+      }
+
+      &-button {
+        width: auto;
+      }
+    }
+
+    .footer {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      &-p {
+        font-size: vars.$fontsizemobile16;
+        padding: 0px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+
   @media screen and (max-width: 768px) {
     .header {
       .navbar {
