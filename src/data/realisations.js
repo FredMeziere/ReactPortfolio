@@ -47,6 +47,15 @@ export default [
     description: 'Projet de site E-commerce de prothése ongulaire en cours de réalisation en groupe de 4',
   },
 
+  {
+    id: 5,
+    title: 'Jeu devine la couleur',
+    miniature: 'https://i.ibb.co/XxhRmFN/jeudescouleur.png',
+    technos: 'Javascript, html/css',
+    githubFront: 'https://github.com/FredMeziere/colorgame',
+    description: 'Projet de jeu des couleurs pour renforcer mon Javascript.',
+  },
+
 ];
 
 /*
