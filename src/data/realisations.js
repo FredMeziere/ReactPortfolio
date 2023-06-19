@@ -59,6 +59,7 @@ export default [
   {
     id: 6,
     title: 'Tic Tac Toe',
+    url: 'https://tictactoefredmeziere.netlify.app/',
     miniature: 'https://i.ibb.co/74tQFf4/tictactoe.webp',
     technos: 'Javascript, html/css',
     githubFront: 'https://github.com/FredMeziere/TicTacToe',
