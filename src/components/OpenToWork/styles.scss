@@ -1,0 +1,23 @@
+@use "src/styles/vars";
+
+
+.opentowork {
+  align-items: center;
+
+  &-h2 {
+    color: vars.$color5;
+    text-align: center;
+    background-color: vars.$color1;
+    margin-top: 15px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 48px;
+    border-radius: 15px;
+    margin: auto;
+    font-weight: 700;
+    margin-bottom: 50px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    line-height: 4rem;
+  }
+}

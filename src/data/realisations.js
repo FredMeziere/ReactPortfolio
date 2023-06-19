@@ -49,11 +49,20 @@ export default [
 
   {
     id: 5,
-    title: 'Jeu devine la couleur',
+    title: 'Devine la couleur',
     miniature: 'https://i.ibb.co/XxhRmFN/jeudescouleur.png',
     technos: 'Javascript, html/css',
     githubFront: 'https://github.com/FredMeziere/colorgame',
     description: 'Projet de jeu des couleurs pour renforcer mon Javascript.',
+  },
+
+  {
+    id: 6,
+    title: 'Tic Tac Toe',
+    miniature: 'https://i.ibb.co/74tQFf4/tictactoe.webp',
+    technos: 'Javascript, html/css',
+    githubFront: 'https://github.com/FredMeziere/TicTacToe',
+    description: 'Retour apres 8 mois sur le projet qui a lancer ma reconversion!',
   },
 
 ];

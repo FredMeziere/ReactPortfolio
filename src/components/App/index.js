@@ -9,6 +9,7 @@ import Presentation from '../Presentation';
 import Parcours from '../Parcours';
 import Realisations from '../Realisations';
 import Contact from '../Contact';
+import OpenToWork from '../OpenToWork';
 
 // == Composant
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <SocialMedia />
       <Introduction />
+      <OpenToWork />
       <Skills />
       <Parcours />
       <Presentation />
