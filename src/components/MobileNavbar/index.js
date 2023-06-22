@@ -23,6 +23,7 @@ function MobileNavbar() {
           <li><a className="mobilenavbar-li" href="#realisation">Mes réalisations</a></li>
           <li><a className="mobilenavbar-li" href="#presentation">Mon profil</a></li>
           <li><a className="mobilenavbar-li" href="#recrutezmoi">Contactez-Moi</a></li>
+          <li><a className="mobilenavbar-li" href="../cv/cv_fred_meziere.pdf">Mon CV</a></li>
         </ul>
       )}
     </div>

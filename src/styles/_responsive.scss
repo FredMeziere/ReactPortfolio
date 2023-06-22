@@ -6,6 +6,20 @@
       display: none;
     }
 
+    .opentowork {
+      margin-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 90%;
+
+      &-h2 {
+        font-size: vars.$fontsizemobile16;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    }
+
     .header {
       display: flex;
       align-items: center;
@@ -269,6 +283,21 @@
 
 @media screen and (min-width: 321px) and (max-width: 479px) {
   .app {
+
+    .opentowork {
+      margin-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 90%;
+
+      &-h2 {
+        font-size: vars.$fontsizemobile16;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    }
+
     .header {
       display: flex;
       align-items: center;
@@ -533,6 +562,21 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .app {
+
+    .opentowork {
+      margin-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 90%;
+
+      &-h2 {
+        font-size: vars.$fontsizemobile16;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    }
+
     .header {
       display: flex;
       align-items: center;
@@ -760,48 +804,49 @@
         }
       }
     }
-      .form {
-        padding-top: 10px;
-        padding-bottom: 10px;
 
-        width: 90%;
-        margin-bottom: 0px;
+    .form {
+      padding-top: 10px;
+      padding-bottom: 10px;
 
-        &-h1 {
-          font-size: vars.$fontsizemobile16;
-          padding: 10px;
-        }
+      width: 90%;
+      margin-bottom: 0px;
 
-        &-p {
-          font-size: vars.$fontsizemobile12;
-          line-height: 1.2rem;
-          margin-bottom: 10px;
-          padding: 0px;
-          text-align: center;
-        }
-
-        & label {
-          font-size: vars.$fontsizemobile16;
-        }
-
-        &-button {
-          width: auto;
-        }
+      &-h1 {
+        font-size: vars.$fontsizemobile16;
+        padding: 10px;
       }
 
-      .footer {
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-        &-p {
-          font-size: vars.$fontsizemobile16;
-          padding: 0px;
-          text-align: center;
-        }
+      &-p {
+        font-size: vars.$fontsizemobile12;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+        padding: 0px;
+        text-align: center;
       }
-    } 
+
+      & label {
+        font-size: vars.$fontsizemobile16;
+      }
+
+      &-button {
+        width: auto;
+      }
+    }
+
+    .footer {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+      &-p {
+        font-size: vars.$fontsizemobile16;
+        padding: 0px;
+        text-align: center;
+      }
+    }
   }
-  
+}
+
 
 /*
 ------------------------------------------------------------------
@@ -813,6 +858,21 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .app {
+
+    .opentowork {
+      margin-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 80%;
+
+      &-h2 {
+        font-size: vars.$fontsizemobile24;
+        line-height: 1.6rem;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    }
+
     .header {
       display: flex;
       align-items: center;

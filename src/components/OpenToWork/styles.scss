@@ -3,9 +3,7 @@
 
 .opentowork {
   align-items: center;
-
-  &-h2 {
-    color: vars.$color5;
+  color: vars.$color5;
     text-align: center;
     background-color: vars.$color1;
     margin-top: 15px;
@@ -18,6 +16,13 @@
     margin-bottom: 50px;
     width: 80%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+
+  &-h2 {
+    color: vars.$color5;
+    text-align: center;
+    background-color: vars.$color1;
+    font-size: 48px;
     line-height: 4rem;
   }
 }

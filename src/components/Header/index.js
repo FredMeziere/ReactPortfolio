@@ -38,6 +38,8 @@ function Header() {
         <p className="navbar-plink2-3"><a className="navbar-a3" href="#realisation">Mes réalisations</a></p>
         <p className="navbar-plink2-3"><a className="navbar-a3" href="#presentation">Mon profil</a></p>
         <p className="navbar-plink4"><a className="navbar-a4" href="#recrutezmoi">Contactez-moi</a></p>
+        <p className="navbar-plink4"><a className="navbar-a4" href="../cv/cv_fred_meziere.pdf">Mon CV</a></p>
+
       </div>
       )}
 
