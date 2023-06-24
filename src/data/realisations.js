@@ -9,9 +9,17 @@ export default [
     githubBack: 'https://github.com/O-clock-Maya/projet-06-o-stretch-back',
     description: 'Il s\'agit du premier projet dit professionnel. Réalisation de AàZ du cachier des charges au déploiment',
   },
-
   {
     id: 2,
+    title: 'PokeBall',
+    miniature: 'https://i.ibb.co/4p4RFk6/pokeball.webp',
+    technos: 'React, Sass,  Javascript',
+    githubFront: 'https://github.com/FredMeziere/PokeBall',
+    description: 'Projet pour continuer a jouer avec React et modification d\'un repos existant pour ajouter les nouveautés',
+  },
+
+  {
+    id: 3,
     title: 'Portfolio v1',
     miniature: 'https://i.ibb.co/zJxh9Zj/v1.webp',
     technos: 'Html, sass, Jabvascript',
@@ -20,7 +28,7 @@ export default [
   },
 
   {
-    id: 3,
+    id: 4,
     title: 'Space invader',
     miniature: 'https://i.ibb.co/8MF285K/spaceinvader.webp',
     technos: 'Html, sass, Jabvascript',
@@ -29,7 +37,7 @@ export default [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Convertisseur',
     miniature: 'https://i.ibb.co/LC56w5G/converter.webp',
     technos: 'React, Javascript, sass',
@@ -38,7 +46,7 @@ export default [
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'E-commerce HomeNails',
     miniature: 'https://i.ibb.co/xSJjFGg/Homenailss.webp',
     technos: 'React, Javascript, sass, axios...',
@@ -48,7 +56,7 @@ export default [
   },
 
   {
-    id: 5,
+    id: 7,
     title: 'Devine la couleur',
     miniature: 'https://i.ibb.co/XxhRmFN/jeudescouleur.png',
     technos: 'Javascript, html/css',
@@ -57,7 +65,7 @@ export default [
   },
 
   {
-    id: 6,
+    id: 8,
     title: 'Tic Tac Toe',
     url: 'https://tictactoefredmeziere.netlify.app/',
     miniature: 'https://i.ibb.co/74tQFf4/tictactoe.webp',
