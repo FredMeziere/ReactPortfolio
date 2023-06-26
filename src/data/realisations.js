@@ -12,6 +12,7 @@ export default [
   {
     id: 2,
     title: 'PokeBall',
+    url: 'https://pokedexfred.netlify.app/',
     miniature: 'https://i.ibb.co/4p4RFk6/pokeball.webp',
     technos: 'React, Sass,  Javascript',
     githubFront: 'https://github.com/FredMeziere/PokeBall',
