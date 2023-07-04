@@ -8,10 +8,10 @@ function Parcours() {
         <br />
         <p className="parcours-p">
           J'ai effectué ma reconversion après avoir cherché ma voie professionnelle.
-          En passant par diverses experiences et métiers. Mon choix et mes envies se sont toujours portés vers l'informatique
+          En passant par diverses experiences et métiers, mes choix et mes envies se sont toujours portés vers l'informatique
           ( ayant depuis des années un <span className="parcours-p-span">bac informatique</span> en poche) je décide en juin 2022 de franchir le pas et
           d'entamer ma reconversion professionnelle au sein de l'<span className="parcours-p-span">école O'clock</span> pour six mois. Ce fut très enrichissant, intense.
-          Mais cette formation m'a permis d'acquerir de bonnes bases pour travailler dans le développement web.
+          Mais cette formation m'a permis d'acquérir de bonnes bases pour travailler dans le développement web.
         </p>
         <p className="parcours-p">
           J'ai choisi la formation <span className="parcours-p-span">Fullstack Javascript</span> avec une spécialisation <span className="parcours-p-span">Back-end</span>.
@@ -22,7 +22,7 @@ function Parcours() {
           <span className="parcours-p-span">J'ai également obtenu une partie de mon titre professionnel DWWM (partie back-end) en mai 2023.</span>
         </p>
         <p className="parcours-p">
-          Je suis intéressé autant par le Front-end, que par le Back-end, mais j'aime particulièrement charme des bases de données, des scripts SQL et requetes, jointures etc.
+          Je suis intéressé autant par le Front-end, que par le Back-end, mais je préfère particulierement les bases de données, les scripts SQL et requetes, jointures etc.
           Je ne suis pas fermé à l'intégration ou à tout autre langage que Javascript.
         </p>
 

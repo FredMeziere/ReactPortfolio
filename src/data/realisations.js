@@ -7,7 +7,7 @@ export default [
     technos: 'React, Sass,  Javascript, PostgreSQL, Sequelize',
     githubFront: 'https://github.com/O-clock-Maya/projet-06-o-stretch-front',
     githubBack: 'https://github.com/O-clock-Maya/projet-06-o-stretch-back',
-    description: 'Il s\'agit du premier projet dit professionnel. Réalisation de AàZ du cachier des charges au déploiment',
+    description: 'Il s\'agit du premier projet dit professionnel. Réalisation de AàZ du cachier des charges au déploiement (1 mois)',
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export default [
     miniature: 'https://i.ibb.co/4p4RFk6/pokeball.webp',
     technos: 'React, Sass,  Javascript',
     githubFront: 'https://github.com/FredMeziere/PokeBall',
-    description: 'Projet pour continuer a jouer avec React et modification d\'un repos existant pour ajouter les nouveautés',
+    description: 'Projet pour continuer a jouer avec React et modification d\'un repos existant pour ajouter des fonctionnalités',
   },
 
   {

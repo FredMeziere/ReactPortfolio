@@ -47,13 +47,13 @@ function Skills() {
           <p className="skills-competences-p">
             <span className="skills-competences-span">Gestion de projet: </span>Utilisation de divers outils de gestion de projets que ce soit pour le versionning Git/Github ou encore la gestion de projet et de l'avancée des équipes Notion.
             <br />
-            <span className="skills-competences-span">Outils de discussions: </span>Utilisation d'outils pour la comunication que ce soit pour les discussions Discord / Teams / Slack / GMeet.
+            <span className="skills-competences-span">Outils de discussion: </span>Utilisation d'outils pour la comunication que ce soit pour les discussions Discord / Teams / Slack / GMeet.
             <br />
-            <span className="skills-competences-span">Machines virtuelles: </span>Pendant notre formation nous avons essentiellement utilisé Linux (Ubuntu) sous machine virtuelle via Virtual box. Sur mon temps libre j'apprends le fonctionnement et l'uilisation de docker sous windows et j'utilise aussi le multiboot windows/linux a titre personnel.
+            <span className="skills-competences-span">Machines virtuelles: </span>Pendant notre formation nous avons essentiellement utilisé Linux (Ubuntu) sous machine virtuelle via Virtual box. Sur mon temps libre j'apprends le fonctionnement et l'uilisation de docker sous windows et j'utilise aussi le multiboot windows/linux à titre personnel.
             <br />
             <span className="skills-competences-span">Wireframes/Maquettes: </span>Utilisation de Figma et Whismical pour la réalisation de maquettes ou de wireframe pour une présentation aux clients.
             <br />
-            <span className="skills-competences-span">MCD/MLD/Dictionnaire de données: </span>Je suis à l'aise avec la créations des différents documents relatifs à la base de données et en plus de mes connaissances en SQL et mongoDB, je sais aussi utiliser l'outil de "versionning" <span className="skills-competences-span">Sqitch</span>.
+            <span className="skills-competences-span">MCD/MLD/Dictionnaire de données: </span>Je suis à l'aise avec la création des différents documents relatifs à la base de données et en plus de mes connaissances en SQL et mongoDB, je sais aussi utiliser l'outil de "versionning" <span className="skills-competences-span">Sqitch</span>.
           </p>
           <h3 className="skills-competences-h3">Langues</h3>
           <p className="skills-competences-p">
