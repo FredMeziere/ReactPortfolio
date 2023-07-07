@@ -325,22 +325,21 @@
 
     .introduction {
       &-h2 {
-        font-size: vars.$fontsizemobile16;
+        font-size: vars.$fontsizemobile20;
         padding-top: 100px;
         padding-bottom: 100px;
-
         width: 90%;
         margin-bottom: 20px;
 
       }
 
       &-span1 {
-        font-size: vars.$fontsizemobile14;
-        line-height: 1.4rem;
+        font-size: vars.$fontsizemobile20;
+        line-height: 1.6rem;
       }
 
       &-span2 {
-        font-size: vars.$fontsizemobile14;
+        font-size: vars.$fontsizemobile20;
         padding: 5px;
       }
 
