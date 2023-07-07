@@ -7,6 +7,28 @@
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 40px;
+  text-align: center;
+
+  &-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: vars.$color1;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: top 0.3s ease;
+    align-items: center;
+
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 0;
+    }
+  }
 
   &-div {
     margin-top: 25px;
@@ -28,7 +50,7 @@
     font-size: 48px;
     padding: 5px;
     border-radius: 5px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 10px;
   }
 
@@ -121,4 +143,3 @@
   color: #fff;
   height: 60px;
 }
-

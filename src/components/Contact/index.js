@@ -5,6 +5,7 @@ function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
+  const [compagny, setCompagny] = useState('');
   const [message, setMessage] = useState('');
   const [isEmailSent, setIsEmailSent] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
@@ -16,6 +17,7 @@ function Contact() {
     formData.append('name', name);
     formData.append('email', email);
     formData.append('subject', subject);
+    formData.append('compagny', compagny);
     formData.append('message', message);
     try {
       const response = await fetch('https://formspree.io/f/xyyaqvrk', {
@@ -29,6 +31,7 @@ function Contact() {
         setName('');
         setEmail('');
         setSubject('');
+        setCompagny('');
         setMessage('');
         setIsEmailSent(true);
       }
@@ -52,12 +55,16 @@ function Contact() {
     <form id="recrutezmoi" className="form" onSubmit={handleSubmit}>
       <p className="form-p">Si vous souhaitez me contacter, faites le via ce formulaire ou via <span className="form-span-linkedin"><a href="https://www.linkedin.com/in/fred-meziere/">LinkedIn</a></span></p>
       <div>
-        <label htmlFor="name">Votre nom</label>
+        <label htmlFor="name">Votre nom / prenom</label>
         <input type="text" id="name" placeholder="Votre nom / prénom ici" value={name} onChange={(event) => setName(event.target.value)} />
       </div>
       <div>
         <label htmlFor="email">Votre e-mail</label>
         <input type="email" id="email" placeholder="Votre adresse email" value={email} onChange={(event) => setEmail(event.target.value)} />
+      </div>
+      <div>
+        <label htmlFor="compagny">Votre entreprise</label>
+        <input type="text" id="compagny" placeholder="Renseignez le nom de votre entreprise" value={subject} onChange={(event) => setSubject(event.target.value)} />
       </div>
       <div>
         <label htmlFor="subject">Motif de votre contact</label>
