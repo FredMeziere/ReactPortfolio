@@ -10,7 +10,7 @@ function Presentation() {
         L'univers informatique m'attire depuis l'adolescence.
         J'ai eu la chance d'avoir un ordinateur très tôt, ce qui m'a sûrement donné par la suite l'envie de travailler dans l'informatique et plus tard encore m'a fait me reconvertir dans le développement web.
         <br />
-        J'ai eu la chance de pouvoir voyager à l'étranger pendant prés de 7 années <span className="presentation-span">(2ans en Afrique et + 5 années en Allemagne)</span>. Ce qui m'a permis de découvrir d'autres pays et cultures.
+        J'ai eu la chance de pouvoir voyager à l'étranger pendant prés de 7 années <span className="presentation-span">(2 années en Afrique et + 5 années en Allemagne)</span>. Ce qui m'a permis de découvrir d'autres pays et cultures.
         <br />
       </p>
       <p className="presentation-p">

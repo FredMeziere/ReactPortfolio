@@ -74,7 +74,24 @@ export default [
     githubFront: 'https://github.com/FredMeziere/TicTacToe',
     description: 'Retour apres 8 mois sur le projet qui a lancer ma reconversion!',
   },
-
+  {
+    id: 9,
+    title: 'Tic Tac Toe',
+    url: 'https://tictactoefredmeziere.netlify.app/',
+    miniature: 'https://i.ibb.co/74tQFf4/tictactoe.webp',
+    technos: 'Javascript, html/css',
+    githubFront: 'https://github.com/FredMeziere/TicTacToe',
+    description: 'Retour apres 8 mois sur le projet qui a lancer ma reconversion!',
+  },
+  {
+    id: 10,
+    title: 'Tic Tac Toe',
+    url: 'https://tictactoefredmeziere.netlify.app/',
+    miniature: 'https://i.ibb.co/74tQFf4/tictactoe.webp',
+    technos: 'Javascript, html/css',
+    githubFront: 'https://github.com/FredMeziere/TicTacToe',
+    description: 'Retour apres 8 mois sur le projet qui a lancer ma reconversion!',
+  },
 ];
 
 /*

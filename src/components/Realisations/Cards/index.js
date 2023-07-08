@@ -8,12 +8,21 @@ function Cards({ datas }) {
   const isMobile = useMediaQuery({ maxWidth: 480 });
   const [visibleCardIndex, setVisibleCardIndex] = useState(0);
 
+  // gestion pour l'affichage de 1 cards pour la version mobile
   const handleNextCard = () => {
     setVisibleCardIndex((prevIndex) => (prevIndex + 1) % datas.length);
   };
+  // gestion pour l'affichage de 3 cards + retour a 0 une fois arrivé a la fin des cards
+  const handleNextCard3 = () => {
+    setVisibleCardIndex((prevIndex) => {
+      const nextIndex = prevIndex + 1;
+      const maxIndex = datas.length - 3;
+      return nextIndex > maxIndex ? 0 : nextIndex;
+    });
+  };
 
   return (
-    <div className="cards">
+    <div className={`cards ${isMobile ? 'cards-mobile' : 'cards-desktop'}`}>
       {isMobile ? (
         <div>
           {datas.slice(visibleCardIndex, visibleCardIndex + 1).map((data) => (
@@ -21,11 +30,24 @@ function Cards({ datas }) {
           ))}
         </div>
       ) : (
-        datas.map((data) => <Card key={data.id} {...data} />)
+        <div className="cards-robutton">
+          <div className="cards-row">
+            {datas.slice(visibleCardIndex, visibleCardIndex + 3).map((data) => (
+              <Card key={data.id} {...data} />
+            ))}
+          </div>
+          {datas.length > 3 && (
+          <button className="cards-button-desktop" type="button" onClick={handleNextCard3}>
+            Suivant
+          </button>
+          )}
+        </div>
       )}
-      <button className="cards-button" type="button" onClick={handleNextCard}>
-        Suivant
-      </button>
+      {isMobile && (
+        <button className="cards-button" type="button" onClick={handleNextCard}>
+          Suivant
+        </button>
+      )}
     </div>
   );
 }

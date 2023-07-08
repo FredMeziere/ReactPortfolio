@@ -1,20 +1,44 @@
 @use "src/styles/vars";
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 3rem;
-    margin-top: 3rem;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem;
+  margin-top: 3rem;
 
+&-robutton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    &-button {
+  &-button {
     background-color: vars.$color5;
     color: vars.$color2;
     padding: 1rem 2rem;
     border: 10px solid vars.$color2;
     border-radius: 4px;
     font-size: 1rem;
+
+    &-desktop {
+      background-color: vars.$color5;
+      color: vars.$color2;
+      padding: 1rem 2rem;
+      border: 1px solid vars.$color2;
+      border-radius: 4px;
+      font-size: 1rem;
+      margin: 10px;
+      width: 150px;
     }
   }
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+}
