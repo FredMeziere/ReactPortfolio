@@ -3,11 +3,10 @@
 .realisations {
 
     color: vars.$color2;
-    text-align: center;
     background-color: vars.$color1;
     margin-top: 15px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 5px;
     border-radius: 15px;
     margin: auto;
     margin-bottom: 50px;
@@ -18,5 +17,14 @@
 &-h1 {
     color: vars.$color2;
     font-size: vars.$fontsize26;
+    text-align: center;
 }
+
+&-p {
+    color: vars.$color2;
+    font-size: vars.$fontsizemobile20;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
 }

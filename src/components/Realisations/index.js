@@ -8,7 +8,8 @@ function Realisation() {
 
   return (
     <div id="realisation" className="realisations">
-      <h1 className="realisations-h1">Mes réalisations</h1>
+      <h1 className="realisations-h1">Mes réalisations et projets</h1>
+      <p className="realisations-p">Coté Javascript</p>
       <Cards datas={resultData} />
     </div>
   );
