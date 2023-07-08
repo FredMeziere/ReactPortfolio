@@ -7,7 +7,7 @@ export default [
     technos: 'React, Sass,  Javascript, PostgreSQL, Sequelize',
     githubFront: 'https://github.com/O-clock-Maya/projet-06-o-stretch-front',
     githubBack: 'https://github.com/O-clock-Maya/projet-06-o-stretch-back',
-    description: 'Il s\'agit du premier projet dit professionnel. Réalisation de AàZ du cachier des charges au déploiement (1 mois)',
+    description: 'Il s\'agit du premier projet professionnel. Réalisation de AàZ du cachier des charges au déploiement (1 mois ).',
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export default [
     miniature: 'https://i.ibb.co/4p4RFk6/pokeball.webp',
     technos: 'React, Sass,  Javascript',
     githubFront: 'https://github.com/FredMeziere/PokeBall',
-    description: 'Projet pour continuer a jouer avec React et modification d\'un repos existant pour ajouter des fonctionnalités',
+    description: 'Projet pour continuer a jouer avec React et modification d\'un repos existant pour ajouter des fonctionnalités.',
   },
 
   {
@@ -25,7 +25,7 @@ export default [
     miniature: 'https://i.ibb.co/zJxh9Zj/v1.webp',
     technos: 'Html, sass, Jabvascript',
     githubFront: 'https://github.com/FredMeziere/Portfolio',
-    description: 'Premiere version de mon Porfolio, avant mon apprentisage en autodidacte de React',
+    description: 'Premiere version de mon Porfolio, avant mon apprentisage en autodidacte de React.',
   },
 
   {
@@ -34,7 +34,7 @@ export default [
     miniature: 'https://i.ibb.co/8MF285K/spaceinvader.webp',
     technos: 'Html, sass, Jabvascript',
     githubFront: 'https://github.com/FredMeziere/Tp_SpaceInvader/tree/main',
-    description: 'Petit jeu de coloriage de pixel pour notre apprentissage de Js',
+    description: 'Petit jeu de coloriage de pixel pour notre apprentissage de Js.',
   },
 
   {
@@ -43,7 +43,7 @@ export default [
     miniature: 'https://i.ibb.co/LC56w5G/converter.webp',
     technos: 'React, Javascript, sass',
     githubFront: 'https://github.com/FredMeziere/converterWithReact',
-    description: 'Petit projet pour l\'apprentissage de React, Use state, Proptypes',
+    description: 'Petit projet pour l\'apprentissage de React, Use state, Proptypes.',
   },
 
   {
@@ -53,7 +53,7 @@ export default [
     technos: 'React, Javascript, sass, axios...',
     githubFront: 'https://github.com/FredMeziere/Homenails-Front',
     githubBack: 'https://github.com/FredMeziere/Homenails-Back',
-    description: 'Projet de site E-commerce de prothése ongulaire en cours de réalisation en groupe',
+    description: 'Projet de site E-commerce de prothése ongulaire en cours de réalisation en groupe.',
   },
 
   {

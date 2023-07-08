@@ -40,7 +40,7 @@ function Contact() {
       }
     }
     catch (error) {
-      setErrorMessage('Une erreur est survenue lors de l\'envoi de l\'e-mail. Vérifiez que tous les champs du formulaire');
+      setErrorMessage('Une erreur est survenue lors de l\'envoi de l\'e-mail. Vérifiez que tous les champs du formulaire sont remplis');
       setIsErrorMessageVisible(true);
     }
     finally {
@@ -64,7 +64,7 @@ function Contact() {
       </div>
       <div>
         <label htmlFor="compagny">Votre entreprise</label>
-        <input type="text" id="compagny" placeholder="Renseignez le nom de votre entreprise" value={subject} onChange={(event) => setSubject(event.target.value)} />
+        <input type="text" id="compagny" placeholder="Renseignez le nom de votre entreprise" value={subject} onChange={(event) => setCompagny(event.target.value)} />
       </div>
       <div>
         <label htmlFor="subject">Motif de votre contact</label>
