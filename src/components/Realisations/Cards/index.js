@@ -12,11 +12,6 @@ function Cards({ datas }) {
     setVisibleCardIndex((prevIndex) => (prevIndex + 1) % datas.length);
   };
 
-  const handlePreviousCard = () => {
-    setVisibleCardIndex((prevIndex) => prevIndex - 1);
-  };
-
-  // Le reste du code...
   return (
     <div className="cards">
       {isMobile ? (
@@ -26,31 +21,15 @@ function Cards({ datas }) {
           ))}
         </div>
       ) : (
-        <div className="cards-desktop-container">
-          {datas.slice(visibleCardIndex, visibleCardIndex + 3).map((data) => (
-            <Card key={data.id} {...data} />
-          ))}
-          <div className="cards-button-group">
-            <button
-              className="cards-button"
-              type="button"
-              onClick={handlePreviousCard}
-            >
-              Précédent
-            </button>
-            <button
-              className="cards-button"
-              type="button"
-              onClick={handleNextCard}
-            >
-              Suivant
-            </button>
-          </div>
-        </div>
+        datas.map((data) => <Card key={data.id} {...data} />)
       )}
+      <button className="cards-button" type="button" onClick={handleNextCard}>
+        Suivant
+      </button>
     </div>
   );
 }
+
 Cards.propTypes = {
   datas: arrayOf(shape()).isRequired,
 };

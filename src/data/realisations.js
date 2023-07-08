@@ -53,7 +53,7 @@ export default [
     technos: 'React, Javascript, sass, axios...',
     githubFront: 'https://github.com/FredMeziere/Homenails-Front',
     githubBack: 'https://github.com/FredMeziere/Homenails-Back',
-    description: 'Projet de site E-commerce de prothése ongulaire en cours de réalisation en groupe de 4',
+    description: 'Projet de site E-commerce de prothése ongulaire en cours de réalisation en groupe',
   },
 
   {
